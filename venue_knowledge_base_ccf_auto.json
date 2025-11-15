@@ -1,0 +1,4017 @@
+[
+  {
+    "venue_name": "ACM SIGPLAN Symposium on Principles & Practice of Parallel Programming",
+    "venue_abbr": "PPOPP",
+    "aliases": [
+      "PPOPP"
+    ],
+    "domain": "计算机体系结构/并行与分布计算/存储系统",
+    "sub_domain": "Conference",
+    "tier": "CCF-A",
+    "rank_score": 10
+  },
+  {
+    "venue_name": "USENIX Conference on File and Storage Technologies",
+    "venue_abbr": "FAST",
+    "aliases": [
+      "FAST"
+    ],
+    "domain": "计算机体系结构/并行与分布计算/存储系统",
+    "sub_domain": "Conference",
+    "tier": "CCF-A",
+    "rank_score": 10
+  },
+  {
+    "venue_name": "Design Automation Conference",
+    "venue_abbr": "DAC",
+    "aliases": [
+      "DAC"
+    ],
+    "domain": "计算机体系结构/并行与分布计算/存储系统",
+    "sub_domain": "Conference",
+    "tier": "CCF-A",
+    "rank_score": 10
+  },
+  {
+    "venue_name": "IEEE International Symposium on High Performance Computer Architecture",
+    "venue_abbr": "HPCA",
+    "aliases": [
+      "HPCA"
+    ],
+    "domain": "计算机体系结构/并行与分布计算/存储系统",
+    "sub_domain": "Conference",
+    "tier": "CCF-A",
+    "rank_score": 10
+  },
+  {
+    "venue_name": "IEEE/ACM International Symposium on Microarchitecture",
+    "venue_abbr": "MICRO",
+    "aliases": [
+      "MICRO"
+    ],
+    "domain": "计算机体系结构/并行与分布计算/存储系统",
+    "sub_domain": "Conference",
+    "tier": "CCF-A",
+    "rank_score": 10
+  },
+  {
+    "venue_name": "International Conference for High Performance Computing, Networking, Storage, and Analysis",
+    "venue_abbr": "SC",
+    "aliases": [
+      "SC"
+    ],
+    "domain": "计算机体系结构/并行与分布计算/存储系统",
+    "sub_domain": "Conference",
+    "tier": "CCF-A",
+    "rank_score": 10
+  },
+  {
+    "venue_name": "International Conference on Architectural Support for Programming Languages and Operating Systems",
+    "venue_abbr": "ASPLOS",
+    "aliases": [
+      "ASPLOS"
+    ],
+    "domain": "计算机体系结构/并行与分布计算/存储系统",
+    "sub_domain": "Conference",
+    "tier": "CCF-A",
+    "rank_score": 10
+  },
+  {
+    "venue_name": "International Symposium on Computer Architecture",
+    "venue_abbr": "ISCA",
+    "aliases": [
+      "ISCA"
+    ],
+    "domain": "计算机体系结构/并行与分布计算/存储系统",
+    "sub_domain": "Conference",
+    "tier": "CCF-A",
+    "rank_score": 10
+  },
+  {
+    "venue_name": "USENIX Annual Technical Conference",
+    "venue_abbr": "USENIX ATC",
+    "aliases": [
+      "USENIX ATC"
+    ],
+    "domain": "计算机体系结构/并行与分布计算/存储系统",
+    "sub_domain": "Conference",
+    "tier": "CCF-A",
+    "rank_score": 10
+  },
+  {
+    "venue_name": "European Conference on Computer Systems",
+    "venue_abbr": "EuroSys",
+    "aliases": [
+      "EuroSys"
+    ],
+    "domain": "计算机体系结构/并行与分布计算/存储系统",
+    "sub_domain": "Conference",
+    "tier": "CCF-A",
+    "rank_score": 10
+  },
+  {
+    "venue_name": "ACM Symposium on Cloud Computing",
+    "venue_abbr": "SOCC",
+    "aliases": [
+      "SOCC"
+    ],
+    "domain": "计算机体系结构/并行与分布计算/存储系统",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "ACM Symposium on Parallelism in Algorithms and Architectures",
+    "venue_abbr": "SPAA",
+    "aliases": [
+      "SPAA"
+    ],
+    "domain": "计算机体系结构/并行与分布计算/存储系统",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "ACM Symposium on Principles of Distributed Computing",
+    "venue_abbr": "PODC",
+    "aliases": [
+      "PODC"
+    ],
+    "domain": "计算机体系结构/并行与分布计算/存储系统",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "ACM/SIGDA International Symposium on Field-Programmable Gate Arrays",
+    "venue_abbr": "FPGA",
+    "aliases": [
+      "FPGA"
+    ],
+    "domain": "计算机体系结构/并行与分布计算/存储系统",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "The International Symposium on Code Generation and Optimization",
+    "venue_abbr": "CGO",
+    "aliases": [
+      "CGO"
+    ],
+    "domain": "计算机体系结构/并行与分布计算/存储系统",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "Design, Automation & Test in Europe",
+    "venue_abbr": "DATE",
+    "aliases": [
+      "DATE"
+    ],
+    "domain": "计算机体系结构/并行与分布计算/存储系统",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "Hot Chips: A Symposium on High Performance Chips",
+    "venue_abbr": "HOT CHIPS",
+    "aliases": [
+      "HOT CHIPS"
+    ],
+    "domain": "计算机体系结构/并行与分布计算/存储系统",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "IEEE International Conference on Cluster Computing",
+    "venue_abbr": "CLUSTER",
+    "aliases": [
+      "CLUSTER"
+    ],
+    "domain": "计算机体系结构/并行与分布计算/存储系统",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "International Conference on Computer Design",
+    "venue_abbr": "ICCD",
+    "aliases": [
+      "ICCD"
+    ],
+    "domain": "计算机体系结构/并行与分布计算/存储系统",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "International Conference on Computer-Aided Design",
+    "venue_abbr": "ICCAD",
+    "aliases": [
+      "ICCAD"
+    ],
+    "domain": "计算机体系结构/并行与分布计算/存储系统",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "IEEE International Conference on Distributed Computing Systems",
+    "venue_abbr": "ICDCS",
+    "aliases": [
+      "ICDCS"
+    ],
+    "domain": "计算机体系结构/并行与分布计算/存储系统",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "International Conference on Hardware/Software Codesign -and System Synthesis",
+    "venue_abbr": "CODES+ISSS",
+    "aliases": [
+      "CODES+ISSS"
+    ],
+    "domain": "计算机体系结构/并行与分布计算/存储系统",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "International Conference on High Performance and Embedded Architectures and Compilers",
+    "venue_abbr": "HiPEAC",
+    "aliases": [
+      "HiPEAC"
+    ],
+    "domain": "计算机体系结构/并行与分布计算/存储系统",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "International Conference on Measurement and Modeling of Computer Systems",
+    "venue_abbr": "SIGMETRICS",
+    "aliases": [
+      "SIGMETRICS"
+    ],
+    "domain": "计算机体系结构/并行与分布计算/存储系统",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "International Conference on Parallel Architectures and Compilation Techniques",
+    "venue_abbr": "PACT",
+    "aliases": [
+      "PACT"
+    ],
+    "domain": "计算机体系结构/并行与分布计算/存储系统",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "International Conference on Parallel Processing",
+    "venue_abbr": "ICPP",
+    "aliases": [
+      "ICPP"
+    ],
+    "domain": "计算机体系结构/并行与分布计算/存储系统",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "International Conference on Supercomputing",
+    "venue_abbr": "ICS",
+    "aliases": [
+      "ICS"
+    ],
+    "domain": "计算机体系结构/并行与分布计算/存储系统",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "International Conference on Virtual Execution Environments",
+    "venue_abbr": "VEE",
+    "aliases": [
+      "VEE"
+    ],
+    "domain": "计算机体系结构/并行与分布计算/存储系统",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "IEEE International Parallel & Distributed Processing Symposium",
+    "venue_abbr": "IPDPS",
+    "aliases": [
+      "IPDPS"
+    ],
+    "domain": "计算机体系结构/并行与分布计算/存储系统",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "International Symposium on Computer Performance, Modeling, Measurements and Evaluation",
+    "venue_abbr": "Performance",
+    "aliases": [
+      "Performance"
+    ],
+    "domain": "计算机体系结构/并行与分布计算/存储系统",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "The International ACM Symposium on High-Performance Parallel and Distributed Computing",
+    "venue_abbr": "HPDC",
+    "aliases": [
+      "HPDC"
+    ],
+    "domain": "计算机体系结构/并行与分布计算/存储系统",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "International Test Conference",
+    "venue_abbr": "ITC",
+    "aliases": [
+      "ITC"
+    ],
+    "domain": "计算机体系结构/并行与分布计算/存储系统",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "Large Installation System Administration Conference",
+    "venue_abbr": "LISA",
+    "aliases": [
+      "LISA"
+    ],
+    "domain": "计算机体系结构/并行与分布计算/存储系统",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "Mass Storage Systems and Technologies",
+    "venue_abbr": "MSST",
+    "aliases": [
+      "MSST"
+    ],
+    "domain": "计算机体系结构/并行与分布计算/存储系统",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "IEEE Real-Time and Embedded Technology and Applications Symposium",
+    "venue_abbr": "RTAS",
+    "aliases": [
+      "RTAS"
+    ],
+    "domain": "计算机体系结构/并行与分布计算/存储系统",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "European Conference on Parallel and Distributed Computing",
+    "venue_abbr": "Euro-Par",
+    "aliases": [
+      "Euro-Par"
+    ],
+    "domain": "计算机体系结构/并行与分布计算/存储系统",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "ACM International Conference on Computing Frontiers",
+    "venue_abbr": "CF",
+    "aliases": [
+      "CF"
+    ],
+    "domain": "计算机体系结构/并行与分布计算/存储系统",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "ACM International Systems and Storage Conference",
+    "venue_abbr": "SYSTOR",
+    "aliases": [
+      "SYSTOR"
+    ],
+    "domain": "计算机体系结构/并行与分布计算/存储系统",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "ACM/IEEE International Symposium on Networks-on-Chip",
+    "venue_abbr": "NOCS",
+    "aliases": [
+      "NOCS"
+    ],
+    "domain": "计算机体系结构/并行与分布计算/存储系统",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "IEEE International Conference on Application-Specific Systems, Architectures, and Processors",
+    "venue_abbr": "ASAP",
+    "aliases": [
+      "ASAP"
+    ],
+    "domain": "计算机体系结构/并行与分布计算/存储系统",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "Asia and South Pacific Design Automation Conference",
+    "venue_abbr": "ASP-DAC",
+    "aliases": [
+      "ASP-DAC"
+    ],
+    "domain": "计算机体系结构/并行与分布计算/存储系统",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "IEEE European Test Symposium",
+    "venue_abbr": "ETS",
+    "aliases": [
+      "ETS"
+    ],
+    "domain": "计算机体系结构/并行与分布计算/存储系统",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "International Conference on Field-Programmable Logic and Applications",
+    "venue_abbr": "FPL",
+    "aliases": [
+      "FPL"
+    ],
+    "domain": "计算机体系结构/并行与分布计算/存储系统",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "IEEE Symposium on Field-Programmable Custom Computing Machines",
+    "venue_abbr": "FCCM",
+    "aliases": [
+      "FCCM"
+    ],
+    "domain": "计算机体系结构/并行与分布计算/存储系统",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "Great Lakes Symposium on VLSI",
+    "venue_abbr": "GLSVLSI",
+    "aliases": [
+      "GLSVLSI"
+    ],
+    "domain": "计算机体系结构/并行与分布计算/存储系统",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "IEEE Asian Test Symposium",
+    "venue_abbr": "ATS",
+    "aliases": [
+      "ATS"
+    ],
+    "domain": "计算机体系结构/并行与分布计算/存储系统",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "IEEE International Conference on High Performance Computing and Communications",
+    "venue_abbr": "HPCC",
+    "aliases": [
+      "HPCC"
+    ],
+    "domain": "计算机体系结构/并行与分布计算/存储系统",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "IEEE International Conference on High Performance Computing, Data and Analytics",
+    "venue_abbr": "HiPC",
+    "aliases": [
+      "HiPC"
+    ],
+    "domain": "计算机体系结构/并行与分布计算/存储系统",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "International Symposium on Modeling, Analysis, and Simulation of Computer and Telecommunication Systems",
+    "venue_abbr": "MASCOTS",
+    "aliases": [
+      "MASCOTS"
+    ],
+    "domain": "计算机体系结构/并行与分布计算/存储系统",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "IEEE International Symposium on Parallel and Distributed Processing with Applications",
+    "venue_abbr": "ISPA",
+    "aliases": [
+      "ISPA"
+    ],
+    "domain": "计算机体系结构/并行与分布计算/存储系统",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing",
+    "venue_abbr": "CCGRID",
+    "aliases": [
+      "CCGRID"
+    ],
+    "domain": "计算机体系结构/并行与分布计算/存储系统",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "IFIP International Conference on Network and Parallel Computing",
+    "venue_abbr": "NPC",
+    "aliases": [
+      "NPC"
+    ],
+    "domain": "计算机体系结构/并行与分布计算/存储系统",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "International Conference on Algorithms and Architectures for Parallel Processing",
+    "venue_abbr": "ICA3PP",
+    "aliases": [
+      "ICA3PP"
+    ],
+    "domain": "计算机体系结构/并行与分布计算/存储系统",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "International Conference on Compilers, Architectures, and Synthesis for Embedded Systems",
+    "venue_abbr": "CASES",
+    "aliases": [
+      "CASES"
+    ],
+    "domain": "计算机体系结构/并行与分布计算/存储系统",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "International Conference on Field-Programmable Technology",
+    "venue_abbr": "FPT",
+    "aliases": [
+      "FPT"
+    ],
+    "domain": "计算机体系结构/并行与分布计算/存储系统",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "International Conference on Parallel and Distributed Systems",
+    "venue_abbr": "ICPADS",
+    "aliases": [
+      "ICPADS"
+    ],
+    "domain": "计算机体系结构/并行与分布计算/存储系统",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "IEEE International Symposium on Circuits and Systems",
+    "venue_abbr": "ISCAS",
+    "aliases": [
+      "ISCAS"
+    ],
+    "domain": "计算机体系结构/并行与分布计算/存储系统",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "International Symposium on Low Power Electronics and Design",
+    "venue_abbr": "ISLPED",
+    "aliases": [
+      "ISLPED"
+    ],
+    "domain": "计算机体系结构/并行与分布计算/存储系统",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "International Symposium on Physical Design",
+    "venue_abbr": "ISPD",
+    "aliases": [
+      "ISPD"
+    ],
+    "domain": "计算机体系结构/并行与分布计算/存储系统",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "IEEE Symposium on High-Performance Interconnects",
+    "venue_abbr": "HOTI",
+    "aliases": [
+      "HOTI"
+    ],
+    "domain": "计算机体系结构/并行与分布计算/存储系统",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "IEEE VLSI Test Symposium",
+    "venue_abbr": "VTS",
+    "aliases": [
+      "VTS"
+    ],
+    "domain": "计算机体系结构/并行与分布计算/存储系统",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "International Test Conference in Asia",
+    "venue_abbr": "ITC-Asia",
+    "aliases": [
+      "ITC-Asia"
+    ],
+    "domain": "计算机体系结构/并行与分布计算/存储系统",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "ACM International Conference on Applications, Technologies, Architectures, and Protocols for Computer Communication",
+    "venue_abbr": "SIGCOMM",
+    "aliases": [
+      "SIGCOMM"
+    ],
+    "domain": "计算机网络",
+    "sub_domain": "Conference",
+    "tier": "CCF-A",
+    "rank_score": 10
+  },
+  {
+    "venue_name": "ACM International Conference on Mobile Computing and Networking",
+    "venue_abbr": "MobiCom",
+    "aliases": [
+      "MobiCom"
+    ],
+    "domain": "计算机网络",
+    "sub_domain": "Conference",
+    "tier": "CCF-A",
+    "rank_score": 10
+  },
+  {
+    "venue_name": "International Conference on Communications",
+    "venue_abbr": "INFOCOM",
+    "aliases": [
+      "INFOCOM"
+    ],
+    "domain": "计算机网络",
+    "sub_domain": "Conference",
+    "tier": "CCF-A",
+    "rank_score": 10
+  },
+  {
+    "venue_name": "Symposium on Network System Design and Implementation",
+    "venue_abbr": "NSDI",
+    "aliases": [
+      "NSDI"
+    ],
+    "domain": "计算机网络",
+    "sub_domain": "Conference",
+    "tier": "CCF-A",
+    "rank_score": 10
+  },
+  {
+    "venue_name": "ACM Conference on Embedded Networked Sensor Systems",
+    "venue_abbr": "SenSys",
+    "aliases": [
+      "SenSys"
+    ],
+    "domain": "计算机网络",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "ACM International Conference on Emerging Networking Experiments and Technologies",
+    "venue_abbr": "CONEXT",
+    "aliases": [
+      "CONEXT"
+    ],
+    "domain": "计算机网络",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "IEEE International Conference on Sensing, Communication, and Networking",
+    "venue_abbr": "SECON",
+    "aliases": [
+      "SECON"
+    ],
+    "domain": "计算机网络",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "International Conference on Information Processing in Sensor Networks",
+    "venue_abbr": "IPSN",
+    "aliases": [
+      "IPSN"
+    ],
+    "domain": "计算机网络",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "ACM International Conference on Mobile Systems, Applications, and Services",
+    "venue_abbr": "MobiSys",
+    "aliases": [
+      "MobiSys"
+    ],
+    "domain": "计算机网络",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "IEEE International Conference on Network Protocols",
+    "venue_abbr": "ICNP",
+    "aliases": [
+      "ICNP"
+    ],
+    "domain": "计算机网络",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing",
+    "venue_abbr": "MobiHoc",
+    "aliases": [
+      "MobiHoc"
+    ],
+    "domain": "计算机网络",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "International Workshop on Network and Operating System Support for Digital Audio and Video",
+    "venue_abbr": "NOSSDAV",
+    "aliases": [
+      "NOSSDAV"
+    ],
+    "domain": "计算机网络",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "IEEE/ACM International Workshop on Quality of Service",
+    "venue_abbr": "IWQOS",
+    "aliases": [
+      "IWQOS"
+    ],
+    "domain": "计算机网络",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "ACM Internet Measurement Conference",
+    "venue_abbr": "IMC",
+    "aliases": [
+      "IMC"
+    ],
+    "domain": "计算机网络",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "ACM/IEEE Symposium on Architectures for Networking and Communication Systems",
+    "venue_abbr": "ANCS",
+    "aliases": [
+      "ANCS"
+    ],
+    "domain": "计算机网络",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "Asia-Pacific Network Operations and Management Symposium",
+    "venue_abbr": "APNOMS",
+    "aliases": [
+      "APNOMS"
+    ],
+    "domain": "计算机网络",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "International Conference on Formal Techniques for Distributed Objects, Components, and Systems",
+    "venue_abbr": "FORTE",
+    "aliases": [
+      "FORTE"
+    ],
+    "domain": "计算机网络",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "IEEE Conference on Local Computer Networks",
+    "venue_abbr": "LCN",
+    "aliases": [
+      "LCN"
+    ],
+    "domain": "计算机网络",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "IEEE Global Communications Conference",
+    "venue_abbr": "GLOBECOM",
+    "aliases": [
+      "GLOBECOM"
+    ],
+    "domain": "计算机网络",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "IEEE International Conference on Communications",
+    "venue_abbr": "ICC",
+    "aliases": [
+      "ICC"
+    ],
+    "domain": "计算机网络",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "IEEE International Conference on Computer Communications and Networks",
+    "venue_abbr": "ICCCN",
+    "aliases": [
+      "ICCCN"
+    ],
+    "domain": "计算机网络",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "IEEE International Conference on Mobile Adhoc and Sensor Systems",
+    "venue_abbr": "MASS",
+    "aliases": [
+      "MASS"
+    ],
+    "domain": "计算机网络",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "IEEE International Conference on Peer-to-Peer Computing",
+    "venue_abbr": "P2P",
+    "aliases": [
+      "P2P"
+    ],
+    "domain": "计算机网络",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "IEEE International Performance Computing and Communications Conference",
+    "venue_abbr": "IPCCC",
+    "aliases": [
+      "IPCCC"
+    ],
+    "domain": "计算机网络",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "IEEE International Symposium on a World of Wireless, Mobile and Multimedia Networks",
+    "venue_abbr": "WOWMOM",
+    "aliases": [
+      "WOWMOM"
+    ],
+    "domain": "计算机网络",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "IEEE Symposium on Computers and Communications",
+    "venue_abbr": "ISCC",
+    "aliases": [
+      "ISCC"
+    ],
+    "domain": "计算机网络",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "IEEE Wireless Communications and Networking Conference",
+    "venue_abbr": "WCNC",
+    "aliases": [
+      "WCNC"
+    ],
+    "domain": "计算机网络",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "IFIP International Conferences on Networking",
+    "venue_abbr": "Networking",
+    "aliases": [
+      "Networking"
+    ],
+    "domain": "计算机网络",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "IFIP/IEEE International Symposium on Integrated Network Management",
+    "venue_abbr": "IM",
+    "aliases": [
+      "IM"
+    ],
+    "domain": "计算机网络",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "International Conference on Mobility, Sensing and Networking",
+    "venue_abbr": "MSN",
+    "aliases": [
+      "MSN"
+    ],
+    "domain": "计算机网络",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "International Conference on Modeling, Analysis and Simulation of Wireless and Mobile Systems",
+    "venue_abbr": "MSWIM",
+    "aliases": [
+      "MSWIM"
+    ],
+    "domain": "计算机网络",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "International Conference on Wireless Algorithms, Systems, and Applications",
+    "venue_abbr": "WASA",
+    "aliases": [
+      "WASA"
+    ],
+    "domain": "计算机网络",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "ACM The Workshop on Hot Topics in Networks",
+    "venue_abbr": "HotNets",
+    "aliases": [
+      "HotNets"
+    ],
+    "domain": "计算机网络",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "Asia-Pacific Workshop on Networking",
+    "venue_abbr": "APNet",
+    "aliases": [
+      "APNet"
+    ],
+    "domain": "计算机网络",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "ACM Conference on Computer and Communications Security",
+    "venue_abbr": "CCS",
+    "aliases": [
+      "CCS"
+    ],
+    "domain": "网络与信息安全",
+    "sub_domain": "Conference",
+    "tier": "CCF-A",
+    "rank_score": 10
+  },
+  {
+    "venue_name": "International Conference on the Theory and Applications of Cryptographic Techniques",
+    "venue_abbr": "EUROCRYPT",
+    "aliases": [
+      "EUROCRYPT"
+    ],
+    "domain": "网络与信息安全",
+    "sub_domain": "Conference",
+    "tier": "CCF-A",
+    "rank_score": 10
+  },
+  {
+    "venue_name": "IEEE Symposium on Security and Privacy",
+    "venue_abbr": "S&P",
+    "aliases": [
+      "S&P"
+    ],
+    "domain": "网络与信息安全",
+    "sub_domain": "Conference",
+    "tier": "CCF-A",
+    "rank_score": 10
+  },
+  {
+    "venue_name": "International Cryptology Conference",
+    "venue_abbr": "CRYPTO",
+    "aliases": [
+      "CRYPTO"
+    ],
+    "domain": "网络与信息安全",
+    "sub_domain": "Conference",
+    "tier": "CCF-A",
+    "rank_score": 10
+  },
+  {
+    "venue_name": "USENIX Security Symposium",
+    "venue_abbr": "USENIX Security",
+    "aliases": [
+      "USENIX Security"
+    ],
+    "domain": "网络与信息安全",
+    "sub_domain": "Conference",
+    "tier": "CCF-A",
+    "rank_score": 10
+  },
+  {
+    "venue_name": "Network and Distributed System Security Symposium",
+    "venue_abbr": "NDSS",
+    "aliases": [
+      "NDSS"
+    ],
+    "domain": "网络与信息安全",
+    "sub_domain": "Conference",
+    "tier": "CCF-A",
+    "rank_score": 10
+  },
+  {
+    "venue_name": "Annual Computer Security Applications Conference",
+    "venue_abbr": "ACSAC",
+    "aliases": [
+      "ACSAC"
+    ],
+    "domain": "网络与信息安全",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "Annual International Conference on the Theory and Application of Cryptology and Information Security",
+    "venue_abbr": "ASIACRYPT",
+    "aliases": [
+      "ASIACRYPT"
+    ],
+    "domain": "网络与信息安全",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "European Symposium on Research in Computer Security",
+    "venue_abbr": "ESORICS",
+    "aliases": [
+      "ESORICS"
+    ],
+    "domain": "网络与信息安全",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "Fast Software Encryption",
+    "venue_abbr": "FSE",
+    "aliases": [
+      "FSE"
+    ],
+    "domain": "网络与信息安全",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "IEEE Computer Security Foundations Workshop",
+    "venue_abbr": "CSFW",
+    "aliases": [
+      "CSFW"
+    ],
+    "domain": "网络与信息安全",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "IEEE International Symposium on Reliable Distributed Systems",
+    "venue_abbr": "SRDS",
+    "aliases": [
+      "SRDS"
+    ],
+    "domain": "网络与信息安全",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "International Conference on Cryptographic Hardware and Embedded Systems",
+    "venue_abbr": "CHES",
+    "aliases": [
+      "CHES"
+    ],
+    "domain": "网络与信息安全",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "International Conference on Dependable Systems and Networks",
+    "venue_abbr": "DSN",
+    "aliases": [
+      "DSN"
+    ],
+    "domain": "网络与信息安全",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "International Symposium on Recent Advances in Intrusion Detection",
+    "venue_abbr": "RAID",
+    "aliases": [
+      "RAID"
+    ],
+    "domain": "网络与信息安全",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "International Workshop on Practice and Theory in Public Key Cryptography",
+    "venue_abbr": "PKC",
+    "aliases": [
+      "PKC"
+    ],
+    "domain": "网络与信息安全",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "Theory of Cryptography Conference",
+    "venue_abbr": "TCC",
+    "aliases": [
+      "TCC"
+    ],
+    "domain": "网络与信息安全",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "ACM Conference on Security and Privacy in Wireless and Mobile Networks",
+    "venue_abbr": "WiSec",
+    "aliases": [
+      "WiSec"
+    ],
+    "domain": "网络与信息安全",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "ACM Symposium on Access Control Models and Technologies",
+    "venue_abbr": "SACMAT",
+    "aliases": [
+      "SACMAT"
+    ],
+    "domain": "网络与信息安全",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "ACM Workshop on Digital Rights Management",
+    "venue_abbr": "DRM",
+    "aliases": [
+      "DRM"
+    ],
+    "domain": "网络与信息安全",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "ACM Workshop on Information Hiding and Multimedia Security",
+    "venue_abbr": "IH&MMSec",
+    "aliases": [
+      "IH&MMSec"
+    ],
+    "domain": "网络与信息安全",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "International Conference on Applied Cryptography and Network Security",
+    "venue_abbr": "ACNS",
+    "aliases": [
+      "ACNS"
+    ],
+    "domain": "网络与信息安全",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "ACM Asia Conference on Computer and Communications Security",
+    "venue_abbr": "AsiaCCS",
+    "aliases": [
+      "AsiaCCS"
+    ],
+    "domain": "网络与信息安全",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "Australasia Conference on Information Security and Privacy",
+    "venue_abbr": "ACISP",
+    "aliases": [
+      "ACISP"
+    ],
+    "domain": "网络与信息安全",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "The Cryptographer's Track at RSA Conference",
+    "venue_abbr": "CT-RSA",
+    "aliases": [
+      "CT-RSA"
+    ],
+    "domain": "网络与信息安全",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "Conference on Detection of Intrusions and Malware & Vulnerability Assessment",
+    "venue_abbr": "DIMVA",
+    "aliases": [
+      "DIMVA"
+    ],
+    "domain": "网络与信息安全",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "Digital Forensic Research Workshop",
+    "venue_abbr": "DFRWS",
+    "aliases": [
+      "DFRWS"
+    ],
+    "domain": "网络与信息安全",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "Financial Cryptography and Data Security",
+    "venue_abbr": "FC",
+    "aliases": [
+      "FC"
+    ],
+    "domain": "网络与信息安全",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "IEEE International Conference on Trust, Security and Privacy in Computing and Communications",
+    "venue_abbr": "TrustCom",
+    "aliases": [
+      "TrustCom"
+    ],
+    "domain": "网络与信息安全",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "IFIP International Information Security Conference",
+    "venue_abbr": "SEC",
+    "aliases": [
+      "SEC"
+    ],
+    "domain": "网络与信息安全",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "IFIP Working Group 11.9 International Conference on Digital Forensics",
+    "venue_abbr": "IFIP WG 11.9",
+    "aliases": [
+      "IFIP WG 11.9"
+    ],
+    "domain": "网络与信息安全",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "Information Security Conference",
+    "venue_abbr": "ISC",
+    "aliases": [
+      "ISC"
+    ],
+    "domain": "网络与信息安全",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "International Conference on Digital Forensics & Cyber Crime",
+    "venue_abbr": "ICDF2C",
+    "aliases": [
+      "ICDF2C"
+    ],
+    "domain": "网络与信息安全",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "International Conference on Information and Communications Security",
+    "venue_abbr": "ICICS",
+    "aliases": [
+      "ICICS"
+    ],
+    "domain": "网络与信息安全",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "International Conference on Security and Privacy in Communication Networks",
+    "venue_abbr": "SecureComm",
+    "aliases": [
+      "SecureComm"
+    ],
+    "domain": "网络与信息安全",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "New Security Paradigms Workshop",
+    "venue_abbr": "NSPW",
+    "aliases": [
+      "NSPW"
+    ],
+    "domain": "网络与信息安全",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "Passive and Active Measurement Conference",
+    "venue_abbr": "PAM",
+    "aliases": [
+      "PAM"
+    ],
+    "domain": "网络与信息安全",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "Privacy Enhancing Technologies Symposium",
+    "venue_abbr": "PETS",
+    "aliases": [
+      "PETS"
+    ],
+    "domain": "网络与信息安全",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "Selected Areas in Cryptography",
+    "venue_abbr": "SAC",
+    "aliases": [
+      "SAC"
+    ],
+    "domain": "网络与信息安全",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "Symposium On Usable Privacy and Security",
+    "venue_abbr": "SOUPS",
+    "aliases": [
+      "SOUPS"
+    ],
+    "domain": "网络与信息安全",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "USENIX",
+    "venue_abbr": "HotSec",
+    "aliases": [
+      "HotSec"
+    ],
+    "domain": "网络与信息安全",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "IEEE European Symposium on Security and Privacy",
+    "venue_abbr": "EuroS&P",
+    "aliases": [
+      "EuroS&P"
+    ],
+    "domain": "网络与信息安全",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "International Conference on Information Security and Cryptology",
+    "venue_abbr": "Inscrypt",
+    "aliases": [
+      "Inscrypt"
+    ],
+    "domain": "网络与信息安全",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "ACM SIGPLAN Conference on Programming Language Design and Implementation",
+    "venue_abbr": "PLDI",
+    "aliases": [
+      "PLDI"
+    ],
+    "domain": "软件工程/系统软件/程序设计语言",
+    "sub_domain": "Conference",
+    "tier": "CCF-A",
+    "rank_score": 10
+  },
+  {
+    "venue_name": "ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages",
+    "venue_abbr": "POPL",
+    "aliases": [
+      "POPL"
+    ],
+    "domain": "软件工程/系统软件/程序设计语言",
+    "sub_domain": "Conference",
+    "tier": "CCF-A",
+    "rank_score": 10
+  },
+  {
+    "venue_name": "ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering",
+    "venue_abbr": "FSE/ESEC",
+    "aliases": [
+      "FSE/ESEC"
+    ],
+    "domain": "软件工程/系统软件/程序设计语言",
+    "sub_domain": "Conference",
+    "tier": "CCF-A",
+    "rank_score": 10
+  },
+  {
+    "venue_name": "ACM Symposium on Operating Systems Principles",
+    "venue_abbr": "SOSP",
+    "aliases": [
+      "SOSP"
+    ],
+    "domain": "软件工程/系统软件/程序设计语言",
+    "sub_domain": "Conference",
+    "tier": "CCF-A",
+    "rank_score": 10
+  },
+  {
+    "venue_name": "Conference on Object-Oriented Programming Systems, Languages, and Applications",
+    "venue_abbr": "OOPSLA",
+    "aliases": [
+      "OOPSLA"
+    ],
+    "domain": "软件工程/系统软件/程序设计语言",
+    "sub_domain": "Conference",
+    "tier": "CCF-A",
+    "rank_score": 10
+  },
+  {
+    "venue_name": "International Conference on Automated Software Engineering",
+    "venue_abbr": "ASE",
+    "aliases": [
+      "ASE"
+    ],
+    "domain": "软件工程/系统软件/程序设计语言",
+    "sub_domain": "Conference",
+    "tier": "CCF-A",
+    "rank_score": 10
+  },
+  {
+    "venue_name": "International Conference on Software Engineering",
+    "venue_abbr": "ICSE",
+    "aliases": [
+      "ICSE"
+    ],
+    "domain": "软件工程/系统软件/程序设计语言",
+    "sub_domain": "Conference",
+    "tier": "CCF-A",
+    "rank_score": 10
+  },
+  {
+    "venue_name": "International Symposium on Software Testing and Analysis",
+    "venue_abbr": "ISSTA",
+    "aliases": [
+      "ISSTA"
+    ],
+    "domain": "软件工程/系统软件/程序设计语言",
+    "sub_domain": "Conference",
+    "tier": "CCF-A",
+    "rank_score": 10
+  },
+  {
+    "venue_name": "USENIX Symposium on Operating Systems Design and Implementation",
+    "venue_abbr": "OSDI",
+    "aliases": [
+      "OSDI"
+    ],
+    "domain": "软件工程/系统软件/程序设计语言",
+    "sub_domain": "Conference",
+    "tier": "CCF-A",
+    "rank_score": 10
+  },
+  {
+    "venue_name": "International Symposium on Formal Methods",
+    "venue_abbr": "FM",
+    "aliases": [
+      "FM"
+    ],
+    "domain": "软件工程/系统软件/程序设计语言",
+    "sub_domain": "Conference",
+    "tier": "CCF-A",
+    "rank_score": 10
+  },
+  {
+    "venue_name": "European Conference on Object-Oriented Programming",
+    "venue_abbr": "ECOOP",
+    "aliases": [
+      "ECOOP"
+    ],
+    "domain": "软件工程/系统软件/程序设计语言",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "European Joint Conferences on Theory and Practice of Software",
+    "venue_abbr": "ETAPS",
+    "aliases": [
+      "ETAPS"
+    ],
+    "domain": "软件工程/系统软件/程序设计语言",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "IEEE International Conference on Program Comprehension",
+    "venue_abbr": "ICPC",
+    "aliases": [
+      "ICPC"
+    ],
+    "domain": "软件工程/系统软件/程序设计语言",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "IEEE International Requirements Engineering Conference",
+    "venue_abbr": "RE",
+    "aliases": [
+      "RE"
+    ],
+    "domain": "软件工程/系统软件/程序设计语言",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "International Conference on Advanced Information Systems Engineering",
+    "venue_abbr": "CAISE",
+    "aliases": [
+      "CAISE"
+    ],
+    "domain": "软件工程/系统软件/程序设计语言",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "International Conference on Function Programming",
+    "venue_abbr": "ICFP",
+    "aliases": [
+      "ICFP"
+    ],
+    "domain": "软件工程/系统软件/程序设计语言",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "ACM SIGPLAN/SIGBED International Conference on Languages, Compilers and Tools for Embedded Systems",
+    "venue_abbr": "LCTES",
+    "aliases": [
+      "LCTES"
+    ],
+    "domain": "软件工程/系统软件/程序设计语言",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "ACM/IEEE International Conference on Model Driven Engineering Languages and Systems",
+    "venue_abbr": "MODELS",
+    "aliases": [
+      "MODELS"
+    ],
+    "domain": "软件工程/系统软件/程序设计语言",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "International Conference on Principles and Practice of Constraint Programming",
+    "venue_abbr": "CP",
+    "aliases": [
+      "CP"
+    ],
+    "domain": "软件工程/系统软件/程序设计语言",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "International Conference on Service Oriented Computing",
+    "venue_abbr": "ICSOC",
+    "aliases": [
+      "ICSOC"
+    ],
+    "domain": "软件工程/系统软件/程序设计语言",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "IEEE International Conference on Software Analysis, Evolution. and Reengineering",
+    "venue_abbr": "SANER",
+    "aliases": [
+      "SANER"
+    ],
+    "domain": "软件工程/系统软件/程序设计语言",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "International Conference on Software Maintenance and Evolution",
+    "venue_abbr": "ICSME",
+    "aliases": [
+      "ICSME"
+    ],
+    "domain": "软件工程/系统软件/程序设计语言",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "International Conference on Verification, Model Checking and Abstract Interpretation",
+    "venue_abbr": "VMCAI",
+    "aliases": [
+      "VMCAI"
+    ],
+    "domain": "软件工程/系统软件/程序设计语言",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "IEEE International Conference on Web Services",
+    "venue_abbr": "ICWS",
+    "aliases": [
+      "ICWS"
+    ],
+    "domain": "软件工程/系统软件/程序设计语言",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "International Middleware Conference",
+    "venue_abbr": "Middleware",
+    "aliases": [
+      "Middleware"
+    ],
+    "domain": "软件工程/系统软件/程序设计语言",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "International Static Analysis Symposium",
+    "venue_abbr": "SAS",
+    "aliases": [
+      "SAS"
+    ],
+    "domain": "软件工程/系统软件/程序设计语言",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "International Symposium on Empirical Software Engineering and Measurement",
+    "venue_abbr": "ESEM",
+    "aliases": [
+      "ESEM"
+    ],
+    "domain": "软件工程/系统软件/程序设计语言",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "IEEE International Symposium on Software Reliability Engineering",
+    "venue_abbr": "ISSRE",
+    "aliases": [
+      "ISSRE"
+    ],
+    "domain": "软件工程/系统软件/程序设计语言",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "USENIX Workshop on Hot Topics in Operating Systems",
+    "venue_abbr": "HotOS",
+    "aliases": [
+      "HotOS"
+    ],
+    "domain": "软件工程/系统软件/程序设计语言",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "ACM SIGPLAN Workshop on Partial Evaluation and Program Manipulation",
+    "venue_abbr": "PEPM",
+    "aliases": [
+      "PEPM"
+    ],
+    "domain": "软件工程/系统软件/程序设计语言",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "ACMSIGPLAN-SIGSOFT Workshop on Program Analysis for Software Tools and Engineering",
+    "venue_abbr": "PASTE",
+    "aliases": [
+      "PASTE"
+    ],
+    "domain": "软件工程/系统软件/程序设计语言",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "Asian Symposium on Programming Languages and Systems",
+    "venue_abbr": "APLAS",
+    "aliases": [
+      "APLAS"
+    ],
+    "domain": "软件工程/系统软件/程序设计语言",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "Asia-Pacific Software Engineering Conference",
+    "venue_abbr": "APSEC",
+    "aliases": [
+      "APSEC"
+    ],
+    "domain": "软件工程/系统软件/程序设计语言",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "International Conference on Evaluation and Assessment in Software Engineering",
+    "venue_abbr": "EASE",
+    "aliases": [
+      "EASE"
+    ],
+    "domain": "软件工程/系统软件/程序设计语言",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "International Conference on Engineering of Complex Computer Systems",
+    "venue_abbr": "ICECCS",
+    "aliases": [
+      "ICECCS"
+    ],
+    "domain": "软件工程/系统软件/程序设计语言",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "IEEE International Conference on Software Testing, Verification and Validation",
+    "venue_abbr": "ICST",
+    "aliases": [
+      "ICST"
+    ],
+    "domain": "软件工程/系统软件/程序设计语言",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "IEEE International Symposium on Performance Analysis of Systems and Software",
+    "venue_abbr": "ISPASS",
+    "aliases": [
+      "ISPASS"
+    ],
+    "domain": "软件工程/系统软件/程序设计语言",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "IEEE International Working Conference on Source Code Analysis and Manipulation",
+    "venue_abbr": "SCAM",
+    "aliases": [
+      "SCAM"
+    ],
+    "domain": "软件工程/系统软件/程序设计语言",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "International Computer Software and Applications Conference",
+    "venue_abbr": "COMPSAC",
+    "aliases": [
+      "COMPSAC"
+    ],
+    "domain": "软件工程/系统软件/程序设计语言",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "International Conference on Formal Engineering Methods",
+    "venue_abbr": "ICFEM",
+    "aliases": [
+      "ICFEM"
+    ],
+    "domain": "软件工程/系统软件/程序设计语言",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "International Conference on Objects, Models, Components, Patterns(2019年停办)",
+    "venue_abbr": "TOOLS",
+    "aliases": [
+      "TOOLS"
+    ],
+    "domain": "软件工程/系统软件/程序设计语言",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "IEEE International Conference on Services Computing",
+    "venue_abbr": "SCC",
+    "aliases": [
+      "SCC"
+    ],
+    "domain": "软件工程/系统软件/程序设计语言",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "International Conference on Software and System Process",
+    "venue_abbr": "ICSSP",
+    "aliases": [
+      "ICSSP"
+    ],
+    "domain": "软件工程/系统软件/程序设计语言",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "International Conference on Software Engineering and Knowledge Engineering",
+    "venue_abbr": "SEKE",
+    "aliases": [
+      "SEKE"
+    ],
+    "domain": "软件工程/系统软件/程序设计语言",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "International Conference on Software Quality, Reliability and Security",
+    "venue_abbr": "QRS",
+    "aliases": [
+      "QRS"
+    ],
+    "domain": "软件工程/系统软件/程序设计语言",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "International Conference on Software Reuse",
+    "venue_abbr": "ICSR",
+    "aliases": [
+      "ICSR"
+    ],
+    "domain": "软件工程/系统软件/程序设计语言",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "International Conference on Web Engineering",
+    "venue_abbr": "ICWE",
+    "aliases": [
+      "ICWE"
+    ],
+    "domain": "软件工程/系统软件/程序设计语言",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "International Symposium on Model Checking of Software",
+    "venue_abbr": "SPIN",
+    "aliases": [
+      "SPIN"
+    ],
+    "domain": "软件工程/系统软件/程序设计语言",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "International Symposium on Automated Technology for Verification and Analysis",
+    "venue_abbr": "ATVA",
+    "aliases": [
+      "ATVA"
+    ],
+    "domain": "软件工程/系统软件/程序设计语言",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "International Symposium on Logic-based Program Synthesis and Transformation",
+    "venue_abbr": "LOPSTR",
+    "aliases": [
+      "LOPSTR"
+    ],
+    "domain": "软件工程/系统软件/程序设计语言",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "Theoretical Aspects of Software Engineering Conference",
+    "venue_abbr": "TASE",
+    "aliases": [
+      "TASE"
+    ],
+    "domain": "软件工程/系统软件/程序设计语言",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "Mining Software Repositories",
+    "venue_abbr": "MSR",
+    "aliases": [
+      "MSR"
+    ],
+    "domain": "软件工程/系统软件/程序设计语言",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "Requirements Engineering: Foundation for Software Quality",
+    "venue_abbr": "REFSQ",
+    "aliases": [
+      "REFSQ"
+    ],
+    "domain": "软件工程/系统软件/程序设计语言",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "Working IEEE/IFIP Conference on Software Architecture",
+    "venue_abbr": "WICSA",
+    "aliases": [
+      "WICSA"
+    ],
+    "domain": "软件工程/系统软件/程序设计语言",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "Asia-Pacific Symposium on Internetware",
+    "venue_abbr": "Internetware",
+    "aliases": [
+      "Internetware"
+    ],
+    "domain": "软件工程/系统软件/程序设计语言",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "International Conference on Runtime Verification",
+    "venue_abbr": "RV",
+    "aliases": [
+      "RV"
+    ],
+    "domain": "软件工程/系统软件/程序设计语言",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "ACM SIGMOD Conference",
+    "venue_abbr": "SIGMOD",
+    "aliases": [
+      "SIGMOD"
+    ],
+    "domain": "数据库/数据挖掘/内容检索",
+    "sub_domain": "Conference",
+    "tier": "CCF-A",
+    "rank_score": 10
+  },
+  {
+    "venue_name": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
+    "venue_abbr": "SIGKDD",
+    "aliases": [
+      "SIGKDD"
+    ],
+    "domain": "数据库/数据挖掘/内容检索",
+    "sub_domain": "Conference",
+    "tier": "CCF-A",
+    "rank_score": 10
+  },
+  {
+    "venue_name": "IEEE International Conference on Data Engineering",
+    "venue_abbr": "ICDE",
+    "aliases": [
+      "ICDE"
+    ],
+    "domain": "数据库/数据挖掘/内容检索",
+    "sub_domain": "Conference",
+    "tier": "CCF-A",
+    "rank_score": 10
+  },
+  {
+    "venue_name": "International ACM SIGIR Conference on Research and Development in Information Retrieval",
+    "venue_abbr": "SIGIR",
+    "aliases": [
+      "SIGIR"
+    ],
+    "domain": "数据库/数据挖掘/内容检索",
+    "sub_domain": "Conference",
+    "tier": "CCF-A",
+    "rank_score": 10
+  },
+  {
+    "venue_name": "International Conference on Very Large Data Bases",
+    "venue_abbr": "VLDB",
+    "aliases": [
+      "VLDB"
+    ],
+    "domain": "数据库/数据挖掘/内容检索",
+    "sub_domain": "Conference",
+    "tier": "CCF-A",
+    "rank_score": 10
+  },
+  {
+    "venue_name": "ACM International Conference on Information and Knowledge Management",
+    "venue_abbr": "CIKM",
+    "aliases": [
+      "CIKM"
+    ],
+    "domain": "数据库/数据挖掘/内容检索",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "ACM International Conference on Web Search and Data Mining",
+    "venue_abbr": "WSDM",
+    "aliases": [
+      "WSDM"
+    ],
+    "domain": "数据库/数据挖掘/内容检索",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "ACM SIGMOD-SIGACT-SIGAI Symposium on Principles of Database Systems",
+    "venue_abbr": "PODS",
+    "aliases": [
+      "PODS"
+    ],
+    "domain": "数据库/数据挖掘/内容检索",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "International Conference on Database Systems for Advanced Applications",
+    "venue_abbr": "DASFAA",
+    "aliases": [
+      "DASFAA"
+    ],
+    "domain": "数据库/数据挖掘/内容检索",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases",
+    "venue_abbr": "ECML-PKDD",
+    "aliases": [
+      "ECML-PKDD"
+    ],
+    "domain": "数据库/数据挖掘/内容检索",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "IEEE International Semantic Web Conference",
+    "venue_abbr": "ISWC",
+    "aliases": [
+      "ISWC"
+    ],
+    "domain": "数据库/数据挖掘/内容检索",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "IEEE International Conference on Data Mining",
+    "venue_abbr": "ICDM",
+    "aliases": [
+      "ICDM"
+    ],
+    "domain": "数据库/数据挖掘/内容检索",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "International Conference on Database Theory",
+    "venue_abbr": "ICDT",
+    "aliases": [
+      "ICDT"
+    ],
+    "domain": "数据库/数据挖掘/内容检索",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "International Conference on Extending Database Technology",
+    "venue_abbr": "EDBT",
+    "aliases": [
+      "EDBT"
+    ],
+    "domain": "数据库/数据挖掘/内容检索",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "Conference on Innovative Data Systems Research",
+    "venue_abbr": "CIDR",
+    "aliases": [
+      "CIDR"
+    ],
+    "domain": "数据库/数据挖掘/内容检索",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "SIAM International Conference on Data Mining",
+    "venue_abbr": "SDM",
+    "aliases": [
+      "SDM"
+    ],
+    "domain": "数据库/数据挖掘/内容检索",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "ACM Conference on Recommender Systems",
+    "venue_abbr": "RecSys",
+    "aliases": [
+      "RecSys"
+    ],
+    "domain": "数据库/数据挖掘/内容检索",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "Asia Pacific Web Conference",
+    "venue_abbr": "APWeb",
+    "aliases": [
+      "APWeb"
+    ],
+    "domain": "数据库/数据挖掘/内容检索",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "International Conference on Database and Expert System Applications",
+    "venue_abbr": "DEXA",
+    "aliases": [
+      "DEXA"
+    ],
+    "domain": "数据库/数据挖掘/内容检索",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "European Conference on Information Retrieval",
+    "venue_abbr": "ECIR",
+    "aliases": [
+      "ECIR"
+    ],
+    "domain": "数据库/数据挖掘/内容检索",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "Extended Semantic Web Conference",
+    "venue_abbr": "ESWC",
+    "aliases": [
+      "ESWC"
+    ],
+    "domain": "数据库/数据挖掘/内容检索",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "International Workshop on Web and Databases",
+    "venue_abbr": "WebDB",
+    "aliases": [
+      "WebDB"
+    ],
+    "domain": "数据库/数据挖掘/内容检索",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "International Conference on Conceptual Modeling",
+    "venue_abbr": "ER",
+    "aliases": [
+      "ER"
+    ],
+    "domain": "数据库/数据挖掘/内容检索",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "International Conference on Mobile Data Management",
+    "venue_abbr": "MDM",
+    "aliases": [
+      "MDM"
+    ],
+    "domain": "数据库/数据挖掘/内容检索",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "International Conference on Scientific and Statistical Database Management",
+    "venue_abbr": "SSDBM",
+    "aliases": [
+      "SSDBM"
+    ],
+    "domain": "数据库/数据挖掘/内容检索",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "International Conference on Web Age Information Management",
+    "venue_abbr": "WAIM",
+    "aliases": [
+      "WAIM"
+    ],
+    "domain": "数据库/数据挖掘/内容检索",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "International Symposium on Spatial and Temporal Databases",
+    "venue_abbr": "SSTD",
+    "aliases": [
+      "SSTD"
+    ],
+    "domain": "数据库/数据挖掘/内容检索",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "Pacific-Asia Conference on Knowledge Discovery and Data Mining",
+    "venue_abbr": "PAKDD",
+    "aliases": [
+      "PAKDD"
+    ],
+    "domain": "数据库/数据挖掘/内容检索",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "Web Information Systems Engineering",
+    "venue_abbr": "WISE",
+    "aliases": [
+      "WISE"
+    ],
+    "domain": "数据库/数据挖掘/内容检索",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "International Conference on Advanced Data Mining and Applications",
+    "venue_abbr": "ADMA",
+    "aliases": [
+      "ADMA"
+    ],
+    "domain": "数据库/数据挖掘/内容检索",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "ACM Symposium on the Theory of Computing",
+    "venue_abbr": "STOC",
+    "aliases": [
+      "STOC"
+    ],
+    "domain": "计算机科学理论",
+    "sub_domain": "Conference",
+    "tier": "CCF-A",
+    "rank_score": 10
+  },
+  {
+    "venue_name": "ACM-SIAM Symposium on Discrete Algorithms",
+    "venue_abbr": "SODA",
+    "aliases": [
+      "SODA"
+    ],
+    "domain": "计算机科学理论",
+    "sub_domain": "Conference",
+    "tier": "CCF-A",
+    "rank_score": 10
+  },
+  {
+    "venue_name": "International Conference on Computer Aided Verification",
+    "venue_abbr": "CAV",
+    "aliases": [
+      "CAV"
+    ],
+    "domain": "计算机科学理论",
+    "sub_domain": "Conference",
+    "tier": "CCF-A",
+    "rank_score": 10
+  },
+  {
+    "venue_name": "IEEE Annual Symposium on Foundations of Computer Science",
+    "venue_abbr": "FOCS",
+    "aliases": [
+      "FOCS"
+    ],
+    "domain": "计算机科学理论",
+    "sub_domain": "Conference",
+    "tier": "CCF-A",
+    "rank_score": 10
+  },
+  {
+    "venue_name": "ACM/IEEE Symposium on Logic in Computer Science",
+    "venue_abbr": "LICS",
+    "aliases": [
+      "LICS"
+    ],
+    "domain": "计算机科学理论",
+    "sub_domain": "Conference",
+    "tier": "CCF-A",
+    "rank_score": 10
+  },
+  {
+    "venue_name": "International Symposium on Computational Geometry",
+    "venue_abbr": "SOCG",
+    "aliases": [
+      "SOCG"
+    ],
+    "domain": "计算机科学理论",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "European Symposium on Algorithms",
+    "venue_abbr": "ESA",
+    "aliases": [
+      "ESA"
+    ],
+    "domain": "计算机科学理论",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "Conference on Computational Complexity",
+    "venue_abbr": "CCC",
+    "aliases": [
+      "CCC"
+    ],
+    "domain": "计算机科学理论",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "International Colloquium on Automata, Languages and Programming",
+    "venue_abbr": "ICALP",
+    "aliases": [
+      "ICALP"
+    ],
+    "domain": "计算机科学理论",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "International Conference on Automated Deduction/International Joint Conference on Automated Reasoning",
+    "venue_abbr": "CADE/IJCAR",
+    "aliases": [
+      "CADE/IJCAR"
+    ],
+    "domain": "计算机科学理论",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "International Conference on Concurrency Theory",
+    "venue_abbr": "CONCUR",
+    "aliases": [
+      "CONCUR"
+    ],
+    "domain": "计算机科学理论",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "International Conference on Hybrid Systems: Computation and Control",
+    "venue_abbr": "HSCC",
+    "aliases": [
+      "HSCC"
+    ],
+    "domain": "计算机科学理论",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "International Conference on Theory and Applications of Satisfiability Testing",
+    "venue_abbr": "SAT",
+    "aliases": [
+      "SAT"
+    ],
+    "domain": "计算机科学理论",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "International Computing and Combinatorics Conference",
+    "venue_abbr": "COCOON",
+    "aliases": [
+      "COCOON"
+    ],
+    "domain": "计算机科学理论",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "Computer Science Logic",
+    "venue_abbr": "CSL",
+    "aliases": [
+      "CSL"
+    ],
+    "domain": "计算机科学理论",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "Formal Methods in Computer-Aided Design",
+    "venue_abbr": "FMCAD",
+    "aliases": [
+      "FMCAD"
+    ],
+    "domain": "计算机科学理论",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "Foundations of Software Technology and Theoretical Computer Science",
+    "venue_abbr": "FSTTCS",
+    "aliases": [
+      "FSTTCS"
+    ],
+    "domain": "计算机科学理论",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "IEEE International Conference on Data Science and Advanced Analytics",
+    "venue_abbr": "DSAA",
+    "aliases": [
+      "DSAA"
+    ],
+    "domain": "计算机科学理论",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "International Colloquium on Theoretical Aspects of Computing",
+    "venue_abbr": "ICTAC",
+    "aliases": [
+      "ICTAC"
+    ],
+    "domain": "计算机科学理论",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "International Conference on Integer Programming and Combinatorial Optimization",
+    "venue_abbr": "IPCO",
+    "aliases": [
+      "IPCO"
+    ],
+    "domain": "计算机科学理论",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "International Conference on Rewriting Techniques and Applications",
+    "venue_abbr": "RTA",
+    "aliases": [
+      "RTA"
+    ],
+    "domain": "计算机科学理论",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "International Symposium on Algorithms and Computation",
+    "venue_abbr": "ISAAC",
+    "aliases": [
+      "ISAAC"
+    ],
+    "domain": "计算机科学理论",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "International Conference on Mathematical Foundations of Computer Science",
+    "venue_abbr": "MFCS",
+    "aliases": [
+      "MFCS"
+    ],
+    "domain": "计算机科学理论",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "Symposium on Theoretical Aspects of Computer Science",
+    "venue_abbr": "STACS",
+    "aliases": [
+      "STACS"
+    ],
+    "domain": "计算机科学理论",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "International Symposium on Dependable Software Engineering: Theories, Tools, and Applications",
+    "venue_abbr": "SETTA",
+    "aliases": [
+      "SETTA"
+    ],
+    "domain": "计算机科学理论",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "ACM International Conference on Multimedia",
+    "venue_abbr": "ACM MM",
+    "aliases": [
+      "ACM MM"
+    ],
+    "domain": "计算机图形学与多媒体",
+    "sub_domain": "Conference",
+    "tier": "CCF-A",
+    "rank_score": 10
+  },
+  {
+    "venue_name": "ACM Special Interest Group on Computer Graphics",
+    "venue_abbr": "SIGGRAPH",
+    "aliases": [
+      "SIGGRAPH"
+    ],
+    "domain": "计算机图形学与多媒体",
+    "sub_domain": "Conference",
+    "tier": "CCF-A",
+    "rank_score": 10
+  },
+  {
+    "venue_name": "IEEE Virtual Reality",
+    "venue_abbr": "VR",
+    "aliases": [
+      "VR"
+    ],
+    "domain": "计算机图形学与多媒体",
+    "sub_domain": "Conference",
+    "tier": "CCF-A",
+    "rank_score": 10
+  },
+  {
+    "venue_name": "IEEE Visualization Conference",
+    "venue_abbr": "IEEE VIS",
+    "aliases": [
+      "IEEE VIS"
+    ],
+    "domain": "计算机图形学与多媒体",
+    "sub_domain": "Conference",
+    "tier": "CCF-A",
+    "rank_score": 10
+  },
+  {
+    "venue_name": "ACM SIGMM International Conference on Multimedia Retrieval",
+    "venue_abbr": "ICMR",
+    "aliases": [
+      "ICMR"
+    ],
+    "domain": "计算机图形学与多媒体",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "ACM SIGGRAPH Symposium on Interactive 3D Graphics and Games",
+    "venue_abbr": "I3D",
+    "aliases": [
+      "I3D"
+    ],
+    "domain": "计算机图形学与多媒体",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "ACM SIGGRAPH/Eurographics Symposium on Computer Animation",
+    "venue_abbr": "SCA",
+    "aliases": [
+      "SCA"
+    ],
+    "domain": "计算机图形学与多媒体",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "Data Compression Conference",
+    "venue_abbr": "DCC",
+    "aliases": [
+      "DCC"
+    ],
+    "domain": "计算机图形学与多媒体",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "Annual Conference of the European Association for Computer Graphics",
+    "venue_abbr": "Eurographics",
+    "aliases": [
+      "Eurographics"
+    ],
+    "domain": "计算机图形学与多媒体",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "Eurographics Conference on Visualization",
+    "venue_abbr": "EuroVis",
+    "aliases": [
+      "EuroVis"
+    ],
+    "domain": "计算机图形学与多媒体",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "Eurographics Symposium on Geometry Processing",
+    "venue_abbr": "SGP",
+    "aliases": [
+      "SGP"
+    ],
+    "domain": "计算机图形学与多媒体",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "Eurographics Symposium on Rendering",
+    "venue_abbr": "EGSR",
+    "aliases": [
+      "EGSR"
+    ],
+    "domain": "计算机图形学与多媒体",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "IEEE International Conference on Acoustics, Speech and Signal Processing",
+    "venue_abbr": "ICASSP",
+    "aliases": [
+      "ICASSP"
+    ],
+    "domain": "计算机图形学与多媒体",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "IEEE International Conference on Multimedia & Expo",
+    "venue_abbr": "ICME",
+    "aliases": [
+      "ICME"
+    ],
+    "domain": "计算机图形学与多媒体",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "International Symposium on Mixed and Augmented Reality",
+    "venue_abbr": "ISMAR",
+    "aliases": [
+      "ISMAR"
+    ],
+    "domain": "计算机图形学与多媒体",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "Pacific Conference on Computer Graphics and Applications",
+    "venue_abbr": "PG",
+    "aliases": [
+      "PG"
+    ],
+    "domain": "计算机图形学与多媒体",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "Symposium on Solid and Physical Modeling",
+    "venue_abbr": "SPM",
+    "aliases": [
+      "SPM"
+    ],
+    "domain": "计算机图形学与多媒体",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "ACM Symposium on Virtual Reality Software and Technology",
+    "venue_abbr": "VRST",
+    "aliases": [
+      "VRST"
+    ],
+    "domain": "计算机图形学与多媒体",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "International Conference on Computer Animation and Social Agents",
+    "venue_abbr": "CASA",
+    "aliases": [
+      "CASA"
+    ],
+    "domain": "计算机图形学与多媒体",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "Computer Graphics International",
+    "venue_abbr": "CGI",
+    "aliases": [
+      "CGI"
+    ],
+    "domain": "计算机图形学与多媒体",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "Conference of the International Speech Communication Association",
+    "venue_abbr": "INTERSPEECH",
+    "aliases": [
+      "INTERSPEECH"
+    ],
+    "domain": "计算机图形学与多媒体",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "Geometric Modeling and Processing",
+    "venue_abbr": "GMP",
+    "aliases": [
+      "GMP"
+    ],
+    "domain": "计算机图形学与多媒体",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "IEEE Pacific Visualization Symposium",
+    "venue_abbr": "Pacific Vis",
+    "aliases": [
+      "Pacific Vis"
+    ],
+    "domain": "计算机图形学与多媒体",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "International Conference on 3D Vision",
+    "venue_abbr": "3DV",
+    "aliases": [
+      "3DV"
+    ],
+    "domain": "计算机图形学与多媒体",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "International Conference on Computer-Aided Design and Computer Graphics",
+    "venue_abbr": "CAD/Graphics",
+    "aliases": [
+      "CAD/Graphics"
+    ],
+    "domain": "计算机图形学与多媒体",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "IEEE International Conference on Image Processing",
+    "venue_abbr": "ICIP",
+    "aliases": [
+      "ICIP"
+    ],
+    "domain": "计算机图形学与多媒体",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "International Conference on Multimedia Modeling",
+    "venue_abbr": "MMM",
+    "aliases": [
+      "MMM"
+    ],
+    "domain": "计算机图形学与多媒体",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "ACM Multimedia Asia",
+    "venue_abbr": "MMAsia",
+    "aliases": [
+      "MMAsia"
+    ],
+    "domain": "计算机图形学与多媒体",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "Shape Modeling International",
+    "venue_abbr": "SMI",
+    "aliases": [
+      "SMI"
+    ],
+    "domain": "计算机图形学与多媒体",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "International Conference on Virtual Reality and Visualization",
+    "venue_abbr": "ICVRV",
+    "aliases": [
+      "ICVRV"
+    ],
+    "domain": "计算机图形学与多媒体",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "Computational Visual Media",
+    "venue_abbr": "CVM",
+    "aliases": [
+      "CVM"
+    ],
+    "domain": "计算机图形学与多媒体",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "Chinese Conference on Pattern Recognition and Computer Vision (中国模式识别与计算机视觉大会)",
+    "venue_abbr": "PRCV",
+    "aliases": [
+      "PRCV"
+    ],
+    "domain": "计算机图形学与多媒体",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "AAAI Conference on Artificial Intelligence",
+    "venue_abbr": "AAAI",
+    "aliases": [
+      "AAAI"
+    ],
+    "domain": "人工智能",
+    "sub_domain": "Conference",
+    "tier": "CCF-A",
+    "rank_score": 10
+  },
+  {
+    "venue_name": "Conference on Neural Information Processing Systems",
+    "venue_abbr": "NeurIPS",
+    "aliases": [
+      "NeurIPS"
+    ],
+    "domain": "人工智能",
+    "sub_domain": "Conference",
+    "tier": "CCF-A",
+    "rank_score": 10
+  },
+  {
+    "venue_name": "Annual Meeting of the Association for Computational Linguistics",
+    "venue_abbr": "ACL",
+    "aliases": [
+      "ACL"
+    ],
+    "domain": "人工智能",
+    "sub_domain": "Conference",
+    "tier": "CCF-A",
+    "rank_score": 10
+  },
+  {
+    "venue_name": "IEEE/CVF Computer Vision and Pattern Recognition Conference",
+    "venue_abbr": "CVPR",
+    "aliases": [
+      "CVPR"
+    ],
+    "domain": "人工智能",
+    "sub_domain": "Conference",
+    "tier": "CCF-A",
+    "rank_score": 10
+  },
+  {
+    "venue_name": "International Conference on Computer Vision",
+    "venue_abbr": "ICCV",
+    "aliases": [
+      "ICCV"
+    ],
+    "domain": "人工智能",
+    "sub_domain": "Conference",
+    "tier": "CCF-A",
+    "rank_score": 10
+  },
+  {
+    "venue_name": "International Conference on Machine Learning",
+    "venue_abbr": "ICML",
+    "aliases": [
+      "ICML"
+    ],
+    "domain": "人工智能",
+    "sub_domain": "Conference",
+    "tier": "CCF-A",
+    "rank_score": 10
+  },
+  {
+    "venue_name": "International Joint Conference on Artificial Intelligence",
+    "venue_abbr": "IJCAI",
+    "aliases": [
+      "IJCAI"
+    ],
+    "domain": "人工智能",
+    "sub_domain": "Conference",
+    "tier": "CCF-A",
+    "rank_score": 10
+  },
+  {
+    "venue_name": "Annual Conference on Computational Learning Theory",
+    "venue_abbr": "COLT",
+    "aliases": [
+      "COLT"
+    ],
+    "domain": "人工智能",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "Conference on Empirical Methods in Natural Language Processing",
+    "venue_abbr": "EMNLP",
+    "aliases": [
+      "EMNLP"
+    ],
+    "domain": "人工智能",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "European Conference on Artificial Intelligence",
+    "venue_abbr": "ECAI",
+    "aliases": [
+      "ECAI"
+    ],
+    "domain": "人工智能",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "European Conference on Computer Vision",
+    "venue_abbr": "ECCV",
+    "aliases": [
+      "ECCV"
+    ],
+    "domain": "人工智能",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "IEEE International Conference on Robotics and Automation",
+    "venue_abbr": "ICRA",
+    "aliases": [
+      "ICRA"
+    ],
+    "domain": "人工智能",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "International Conference on Automated Planning and Scheduling",
+    "venue_abbr": "ICAPS",
+    "aliases": [
+      "ICAPS"
+    ],
+    "domain": "人工智能",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "International Conference on Case-Based Reasoning",
+    "venue_abbr": "ICCBR",
+    "aliases": [
+      "ICCBR"
+    ],
+    "domain": "人工智能",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "International Conference on Computational Linguistics",
+    "venue_abbr": "COLING",
+    "aliases": [
+      "COLING"
+    ],
+    "domain": "人工智能",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "International Conference on Principles of Knowledge Representation and Reasoning",
+    "venue_abbr": "KR",
+    "aliases": [
+      "KR"
+    ],
+    "domain": "人工智能",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "Conference on Uncertainty in Artificial Intelligence",
+    "venue_abbr": "UAI",
+    "aliases": [
+      "UAI"
+    ],
+    "domain": "人工智能",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "International Joint Conference on Autonomous Agents and Multi-agent Systems",
+    "venue_abbr": "AAMAS",
+    "aliases": [
+      "AAMAS"
+    ],
+    "domain": "人工智能",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "Parallel Problem Solving from Nature",
+    "venue_abbr": "PPSN",
+    "aliases": [
+      "PPSN"
+    ],
+    "domain": "人工智能",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "North American Chapter of the Association for Computational Linguistics",
+    "venue_abbr": "NAACL",
+    "aliases": [
+      "NAACL"
+    ],
+    "domain": "人工智能",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "International Conference on Artificial Intelligence and Statistics",
+    "venue_abbr": "AISTATS",
+    "aliases": [
+      "AISTATS"
+    ],
+    "domain": "人工智能",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "Asian Conference on Computer Vision",
+    "venue_abbr": "ACCV",
+    "aliases": [
+      "ACCV"
+    ],
+    "domain": "人工智能",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "Asian Conference on Machine Learning",
+    "venue_abbr": "ACML",
+    "aliases": [
+      "ACML"
+    ],
+    "domain": "人工智能",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "British Machine Vision Conference",
+    "venue_abbr": "BMVC",
+    "aliases": [
+      "BMVC"
+    ],
+    "domain": "人工智能",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "CCF International Conference on Natural Language Processing and Chinese Computing",
+    "venue_abbr": "NLPCC",
+    "aliases": [
+      "NLPCC"
+    ],
+    "domain": "人工智能",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "Conference on Computational Natural Language Learning",
+    "venue_abbr": "CONLL",
+    "aliases": [
+      "CONLL"
+    ],
+    "domain": "人工智能",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "Genetic and Evolutionary Computation Conference",
+    "venue_abbr": "GECCO",
+    "aliases": [
+      "GECCO"
+    ],
+    "domain": "人工智能",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "IEEE International Conference on Tools with Artificial Intelligence",
+    "venue_abbr": "ICTAI",
+    "aliases": [
+      "ICTAI"
+    ],
+    "domain": "人工智能",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "IEEE RSJ International Conference on Intelligent Robots and Systems",
+    "venue_abbr": "IROS",
+    "aliases": [
+      "IROS"
+    ],
+    "domain": "人工智能",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "International Conference on Algorithmic Learning Theory",
+    "venue_abbr": "ALT",
+    "aliases": [
+      "ALT"
+    ],
+    "domain": "人工智能",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "International Conference on Artificial Neural Networks",
+    "venue_abbr": "ICANN",
+    "aliases": [
+      "ICANN"
+    ],
+    "domain": "人工智能",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "IEEE International Conference on Automatic Face and Gesture Recognition",
+    "venue_abbr": "FG",
+    "aliases": [
+      "FG"
+    ],
+    "domain": "人工智能",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "International Conference on Document Analysis and Recognition",
+    "venue_abbr": "ICDAR",
+    "aliases": [
+      "ICDAR"
+    ],
+    "domain": "人工智能",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "International Conference on Inductive Logic Programming",
+    "venue_abbr": "ILP",
+    "aliases": [
+      "ILP"
+    ],
+    "domain": "人工智能",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "International conference on Knowledge Science, Engineering and Management",
+    "venue_abbr": "KSEM",
+    "aliases": [
+      "KSEM"
+    ],
+    "domain": "人工智能",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "International Conference on Neural Information Processing",
+    "venue_abbr": "ICONIP",
+    "aliases": [
+      "ICONIP"
+    ],
+    "domain": "人工智能",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "International Conference on Pattern Recognition",
+    "venue_abbr": "ICPR",
+    "aliases": [
+      "ICPR"
+    ],
+    "domain": "人工智能",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "International Joint Conference on Biometrics",
+    "venue_abbr": "IJCB",
+    "aliases": [
+      "IJCB"
+    ],
+    "domain": "人工智能",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "International Joint Conference on Neural Networks",
+    "venue_abbr": "IJCNN",
+    "aliases": [
+      "IJCNN"
+    ],
+    "domain": "人工智能",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "Pacific Rim International Conference on Artificial Intelligence",
+    "venue_abbr": "PRICAI",
+    "aliases": [
+      "PRICAI"
+    ],
+    "domain": "人工智能",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "ACM Conference On Computer-Supported Cooperative Work And Social Computing",
+    "venue_abbr": "CSCW",
+    "aliases": [
+      "CSCW"
+    ],
+    "domain": "人机交互与普适计算",
+    "sub_domain": "Conference",
+    "tier": "CCF-A",
+    "rank_score": 10
+  },
+  {
+    "venue_name": "ACM Conference on Human Factors in Computing Systems",
+    "venue_abbr": "CHI",
+    "aliases": [
+      "CHI"
+    ],
+    "domain": "人机交互与普适计算",
+    "sub_domain": "Conference",
+    "tier": "CCF-A",
+    "rank_score": 10
+  },
+  {
+    "venue_name": "ACM international joint conference on Pervasive and Ubiquitous Computing",
+    "venue_abbr": "UbiComp",
+    "aliases": [
+      "UbiComp"
+    ],
+    "domain": "人机交互与普适计算",
+    "sub_domain": "Conference",
+    "tier": "CCF-A",
+    "rank_score": 10
+  },
+  {
+    "venue_name": "Symposium on User Interface and Technology",
+    "venue_abbr": "UIST",
+    "aliases": [
+      "UIST"
+    ],
+    "domain": "人机交互与普适计算",
+    "sub_domain": "Conference",
+    "tier": "CCF-A",
+    "rank_score": 10
+  },
+  {
+    "venue_name": "ACM International Conference on Supporting Group Work",
+    "venue_abbr": "GROUP",
+    "aliases": [
+      "GROUP"
+    ],
+    "domain": "人机交互与普适计算",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "ACM International Conference on Intelligent User Interfaces",
+    "venue_abbr": "IUI",
+    "aliases": [
+      "IUI"
+    ],
+    "domain": "人机交互与普适计算",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "ACM International Conference on Interactive Tabletops and Surfaces",
+    "venue_abbr": "ITS",
+    "aliases": [
+      "ITS"
+    ],
+    "domain": "人机交互与普适计算",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "European Conference on Computer Supported Cooperative Work",
+    "venue_abbr": "ECSCW",
+    "aliases": [
+      "ECSCW"
+    ],
+    "domain": "人机交互与普适计算",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "IEEE International Conference on Pervasive Computing and Communications",
+    "venue_abbr": "PERCOM",
+    "aliases": [
+      "PERCOM"
+    ],
+    "domain": "人机交互与普适计算",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "ACM International Conference on Mobile Human-Computer Interaction",
+    "venue_abbr": "MobileHCI",
+    "aliases": [
+      "MobileHCI"
+    ],
+    "domain": "人机交互与普适计算",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "The International AAAI Conference on Web and Social Media",
+    "venue_abbr": "ICWSM",
+    "aliases": [
+      "ICWSM"
+    ],
+    "domain": "人机交互与普适计算",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "ACM SIGCHI Conference on Designing Interactive Systems",
+    "venue_abbr": "DIS",
+    "aliases": [
+      "DIS"
+    ],
+    "domain": "人机交互与普适计算",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "ACM International Conference on Multimodal Interaction",
+    "venue_abbr": "ICMI",
+    "aliases": [
+      "ICMI"
+    ],
+    "domain": "人机交互与普适计算",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "International ACM SIGACCESS Conference on Computers and Accessibility",
+    "venue_abbr": "ASSETS",
+    "aliases": [
+      "ASSETS"
+    ],
+    "domain": "人机交互与普适计算",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "Graphics Interface",
+    "venue_abbr": "GI",
+    "aliases": [
+      "GI"
+    ],
+    "domain": "人机交互与普适计算",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "IEEE International Conference on Ubiquitous Intelligence and Computing",
+    "venue_abbr": "UIC",
+    "aliases": [
+      "UIC"
+    ],
+    "domain": "人机交互与普适计算",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "IEEE World Haptics Conference",
+    "venue_abbr": "IEEE World Haptics Conference",
+    "aliases": [
+      "IEEE World Haptics Conference"
+    ],
+    "domain": "人机交互与普适计算",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "International Conference on Human- Computer Interaction of International Federation for Information Processing",
+    "venue_abbr": "INTERACT",
+    "aliases": [
+      "INTERACT"
+    ],
+    "domain": "人机交互与普适计算",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "ACM Interaction Design and Children",
+    "venue_abbr": "IDC",
+    "aliases": [
+      "IDC"
+    ],
+    "domain": "人机交互与普适计算",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "International Conference on Collaborative Computing: Networking, Applications and Worksharing",
+    "venue_abbr": "CollaborateCom",
+    "aliases": [
+      "CollaborateCom"
+    ],
+    "domain": "人机交互与普适计算",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "International Conference on Computer Supported Cooperative Work in Design",
+    "venue_abbr": "CSCWD",
+    "aliases": [
+      "CSCWD"
+    ],
+    "domain": "人机交互与普适计算",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "International Conference on Cooperative Information Systems",
+    "venue_abbr": "CoopIS",
+    "aliases": [
+      "CoopIS"
+    ],
+    "domain": "人机交互与普适计算",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "International Conference on Mobile and Ubiquitous Systems: Computing, Networking and Services",
+    "venue_abbr": "MobiQuitous",
+    "aliases": [
+      "MobiQuitous"
+    ],
+    "domain": "人机交互与普适计算",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "International Working Conference on Advanced Visual Interfaces",
+    "venue_abbr": "AVI",
+    "aliases": [
+      "AVI"
+    ],
+    "domain": "人机交互与普适计算",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "International World Wide Web Conference",
+    "venue_abbr": "WWW",
+    "aliases": [
+      "WWW"
+    ],
+    "domain": "交叉/综合/新兴",
+    "sub_domain": "Conference",
+    "tier": "CCF-A",
+    "rank_score": 10
+  },
+  {
+    "venue_name": "IEEE Real-Time Systems Symposium",
+    "venue_abbr": "RTSS",
+    "aliases": [
+      "RTSS"
+    ],
+    "domain": "交叉/综合/新兴",
+    "sub_domain": "Conference",
+    "tier": "CCF-A",
+    "rank_score": 10
+  },
+  {
+    "venue_name": "Conference on Web and Internet Economics",
+    "venue_abbr": "WINE",
+    "aliases": [
+      "WINE"
+    ],
+    "domain": "交叉/综合/新兴",
+    "sub_domain": "Conference",
+    "tier": "CCF-A",
+    "rank_score": 10
+  },
+  {
+    "venue_name": "Annual Meeting of the Cognitive Science Society",
+    "venue_abbr": "CogSci",
+    "aliases": [
+      "CogSci"
+    ],
+    "domain": "交叉/综合/新兴",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "IEEE International Conference on Bioinformatics and Biomedicine",
+    "venue_abbr": "BIBM",
+    "aliases": [
+      "BIBM"
+    ],
+    "domain": "交叉/综合/新兴",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "International Conference on Embedded Software",
+    "venue_abbr": "EMSOFT",
+    "aliases": [
+      "EMSOFT"
+    ],
+    "domain": "交叉/综合/新兴",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "International conference on Intelligent Systems for Molecular Biology",
+    "venue_abbr": "ISMB",
+    "aliases": [
+      "ISMB"
+    ],
+    "domain": "交叉/综合/新兴",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "Annual International Conference on Research in Computational Molecular Biology",
+    "venue_abbr": "RECOMB",
+    "aliases": [
+      "RECOMB"
+    ],
+    "domain": "交叉/综合/新兴",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "International Conference on Medical Image Computing and Computer-Assisted Intervention",
+    "venue_abbr": "MICCAI",
+    "aliases": [
+      "MICCAI"
+    ],
+    "domain": "交叉/综合/新兴",
+    "sub_domain": "Conference",
+    "tier": "CCF-B",
+    "rank_score": 8
+  },
+  {
+    "venue_name": "American Medical Informatics Association Annual Symposium",
+    "venue_abbr": "AMIA",
+    "aliases": [
+      "AMIA"
+    ],
+    "domain": "交叉/综合/新兴",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "Asia Pacific Bioinformatics Conference",
+    "venue_abbr": "APBC",
+    "aliases": [
+      "APBC"
+    ],
+    "domain": "交叉/综合/新兴",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "IEEE International Conference on Big Data",
+    "venue_abbr": "IEEE BigData",
+    "aliases": [
+      "IEEE BigData"
+    ],
+    "domain": "交叉/综合/新兴",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "IEEE International Conference on Cloud Computing",
+    "venue_abbr": "IEEE CLOUD",
+    "aliases": [
+      "IEEE CLOUD"
+    ],
+    "domain": "交叉/综合/新兴",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "IEEE International Conference on Systems, Man, and Cybernetics",
+    "venue_abbr": "SMC",
+    "aliases": [
+      "SMC"
+    ],
+    "domain": "交叉/综合/新兴",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "International Conference on Spatial Information Theory",
+    "venue_abbr": "COSIT",
+    "aliases": [
+      "COSIT"
+    ],
+    "domain": "交叉/综合/新兴",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "International Symposium on Bioinformatics Research and Applications",
+    "venue_abbr": "ISBRA",
+    "aliases": [
+      "ISBRA"
+    ],
+    "domain": "交叉/综合/新兴",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "International Symposium on Algorithmic Game Theory",
+    "venue_abbr": "SAGT",
+    "aliases": [
+      "SAGT"
+    ],
+    "domain": "交叉/综合/新兴",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "ACM Special Interest Group on Spatial Information",
+    "venue_abbr": "SIGSPATIAL",
+    "aliases": [
+      "SIGSPATIAL"
+    ],
+    "domain": "交叉/综合/新兴",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  },
+  {
+    "venue_name": "International Conference on Intelligent Computing",
+    "venue_abbr": "ICIC",
+    "aliases": [
+      "ICIC"
+    ],
+    "domain": "交叉/综合/新兴",
+    "sub_domain": "Conference",
+    "tier": "CCF-C",
+    "rank_score": 6
+  }
+]
