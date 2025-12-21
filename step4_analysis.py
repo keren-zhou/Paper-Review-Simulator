@@ -17,6 +17,7 @@ import re  # <--- 新增: 导入正则表达式模块
 # For semantic filtering functionality
 from sklearn.metrics.pairwise import cosine_similarity
 from langchain_huggingface import HuggingFaceEmbeddings
+from thefuzz import fuzz  # 用于过滤用户自己的论文
 
 # ==============================================================================
 # 2. 核心功能代码 (来自您的项目)
@@ -293,7 +294,7 @@ def load_conferences_for_tier(filepath: str, target_tier: str) -> List[str]:
         print(f"   ❌ 错误: 文件 '{filepath}' 不是有效的 JSON 文件。")
         return []
 
-def filter_by_semantic_similarity(papers_list: List[Dict], topic: str, threshold: float, model_name: str) -> List[Dict]:
+def filter_by_semantic_similarity(papers_list: List[Dict], topic: str, threshold: float, model_name: str, user_title: str = "") -> List[Dict]:
     """根据与给定主题的语义相似度过滤论文列表。"""
     if not papers_list:
         return []
@@ -320,6 +321,13 @@ def filter_by_semantic_similarity(papers_list: List[Dict], topic: str, threshold
     
     highly_relevant_papers = []
     for i, paper in enumerate(papers_list):
+        # 检查是否是用户自己的论文
+        paper_title = paper.get('title', '')
+        if user_title and fuzz.ratio(user_title.lower(), paper_title.lower()) > 95:
+            print(f"   🚫 检测并跳过用户自己的论文: '{paper_title[:60]}...'")
+            continue
+        
+        # 原有的相似度检查
         score = similarities[i]
         if score >= threshold:
             paper['similarity_score'] = round(score, 4)
@@ -374,6 +382,22 @@ def run_openreview_scraper(
         print("❌ 无法从分析文件生成搜索参数，流程终止。")
         return
 
+    # 提取用户论文标题用于自我过滤
+    try:
+        with open(analysis_json_path, 'r', encoding='utf-8') as f:
+            analysis_data = json.load(f)
+        user_paper_title = analysis_data.get("paper_summary", {}).get("supporting_evidence", {}).get("title", "")
+        if not user_paper_title:
+            for key, value in analysis_data.items():
+                if isinstance(value, str) and 'title' in key.lower():
+                    user_paper_title = value
+                    break
+        if user_paper_title:
+            print(f"   ℹ️  检测到用户论文标题: '{user_paper_title[:60]}...'")
+    except Exception as e:
+        print(f"   ⚠️ 无法提取用户论文标题: {e}")
+        user_paper_title = ""
+
     target_conferences = load_conferences_for_tier('venue_knowledge_base_ccf_auto.json', target_tier)
     
     if not target_conferences:
@@ -422,7 +446,8 @@ def run_openreview_scraper(
         papers_list=initial_paper_list,
         topic=search_topic,
         threshold=similarity_threshold,
-        model_name=embedding_model_name
+        model_name=embedding_model_name,
+        user_title=user_paper_title
     )
     
     final_papers_with_reviews = filter_papers_with_reviews(

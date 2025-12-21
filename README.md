@@ -125,7 +125,6 @@ Auto-Reviewer旨在通过模拟真实的同行评审流程，为研究人员提�
     pip install -r requirements_langchain.txt
     which python
     ```
-    这个环境request包是不对的，可以先把这个request包从requirements里删了，然后装完之后再安装request，最后虽然报错，但是能运行代码。
     然后把路径copy到config.ini的STEP4_PYTHON_EXECUTABLE
 5.  **配置环境**:
     在项目根目录填写一个 `config.ini` 文件。该文件用于存放API密钥和本地模型路径。您需要配置以下内容：

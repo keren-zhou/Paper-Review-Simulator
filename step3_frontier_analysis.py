@@ -22,6 +22,7 @@ import configparser
 
 from sklearn.metrics.pairwise import cosine_similarity
 from langchain_huggingface import HuggingFaceEmbeddings
+from thefuzz import fuzz  # 用于过滤用户自己的论文
 
 # --- 全局变量 ---
 qwen_client = None
@@ -173,7 +174,7 @@ def search_arxiv_task(query: str, start_date_str: str, raw_papers_queue: queue.Q
     print("--- [生产者线程结束] 所有月份搜索完毕。 ---")
     raw_papers_queue.put(None)
 
-def filter_papers_task(raw_queue: queue.Queue, filtered_queue: queue.Queue, base_semantic_text: str, model, relevance_threshold: float):
+def filter_papers_task(raw_queue: queue.Queue, filtered_queue: queue.Queue, base_semantic_text: str, model, relevance_threshold: float, user_title: str = ""):
     print(f"--- [过滤器线程启动] 使用阈值 {relevance_threshold} 等待原始数据... ---")
     try:
         base_embedding = model.embed_query(base_semantic_text)
@@ -197,6 +198,12 @@ def filter_papers_task(raw_queue: queue.Queue, filtered_queue: queue.Queue, base
         
         relevant_papers = []
         for i, paper in enumerate(paper_batch):
+            # 检查是否是用户自己的论文
+            if user_title and fuzz.ratio(user_title.lower(), paper['title'].lower()) > 95:
+                print(f"   [过滤器] 🚫 检测并跳过用户自己的论文: '{paper['title'][:60]}...'")
+                continue
+            
+            # 原有的相关性检查
             if similarities[i] >= relevance_threshold:
                 paper['relevance_score'] = float(similarities[i])
                 relevant_papers.append(paper)
@@ -255,6 +262,18 @@ def run_frontier_analysis(
     analysis_data = load_analysis_data(analysis_file)
     if not analysis_data: return
     
+    # 提取用户论文标题用于自我过滤
+    user_paper_title = analysis_data.get("paper_summary", {}).get("supporting_evidence", {}).get("title", "")
+    if not user_paper_title:
+        # 备用方案：从其他可能的位置查找标题
+        for key, value in analysis_data.items():
+            if isinstance(value, str) and 'title' in key.lower():
+                user_paper_title = value
+                break
+    if user_paper_title:
+        print(f"   ℹ️  检测到用户论文标题: '{user_paper_title[:60]}...'")
+    
+    
     print("\n--- 步骤 2/4: 构建搜索查询 ---")
     arxiv_query, semantic_text = construct_search_query(analysis_data)
     if not arxiv_query: print("错误：无法构建有效的搜索查询。"); return
@@ -264,7 +283,7 @@ def run_frontier_analysis(
     
     threads = [
         threading.Thread(target=search_arxiv_task, args=(arxiv_query, search_start_date, raw_papers_queue)),
-        threading.Thread(target=filter_papers_task, args=(raw_papers_queue, filtered_papers_queue, semantic_text, embedding_model, relevance_threshold)),
+        threading.Thread(target=filter_papers_task, args=(raw_papers_queue, filtered_papers_queue, semantic_text, embedding_model, relevance_threshold, user_paper_title)),
         threading.Thread(target=summarize_papers_task, args=(filtered_papers_queue, final_results))
     ]
     print("--- 步骤 3/4: 启动三阶段分析流水线 ---\n")
