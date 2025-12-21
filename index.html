@@ -51,10 +51,23 @@
             cursor: pointer; white-space: nowrap;
         }
         input[type="file"] { display: none; }
+        
+        /* 支付提示样式 */
+        .cost-info {
+            background-color: #fff3cd;
+            color: #856404;
+            padding: 0.75rem;
+            border-radius: 6px;
+            margin-top: 1rem;
+            text-align: center;
+            font-size: 0.9rem;
+            border: 1px solid #ffeeba;
+        }
+
         button#start-review-btn {
             width: 100%; padding: 0.9rem; background: linear-gradient(135deg, var(--primary-color), var(--primary-hover));
             color: white; border: none; border-radius: 6px; cursor: pointer; font-size: 1.1rem; font-weight: bold;
-            transition: transform 0.2s, box-shadow 0.2s; margin-top: 1rem;
+            transition: transform 0.2s, box-shadow 0.2s; margin-top: 0.5rem;
         }
         button#start-review-btn:hover { transform: translateY(-2px); box-shadow: 0 6px 15px rgba(74, 144, 226, 0.3); }
         button#start-review-btn:disabled { background: #ccc; cursor: not-allowed; transform: none; box-shadow: none; }
@@ -73,7 +86,7 @@
             border-bottom: 3px solid transparent; transition: color 0.2s, border-color 0.2s;
         }
         .tab-button.active { color: var(--primary-color); border-bottom-color: var(--primary-color); font-weight: 600; }
-        .tab-button.disabled { color: #ccc; cursor: not-allowed; } /* [新增] 未激活报告的样式 */
+        .tab-button.disabled { color: #ccc; cursor: not-allowed; } 
         .tab-content { flex-grow: 1; position: relative; }
         .tab-pane {
             position: absolute; top: 0; left: 0; right: 0; bottom: 0; opacity: 0; visibility: hidden; transition: opacity 0.3s;
@@ -82,7 +95,7 @@
         }
         .tab-pane.active { opacity: 1; visibility: visible; }
         #logs { white-space: pre-wrap; font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace; font-size: 0.9em; line-height: 1.6; }
-        /* [美化] 最终报告样式 (适用于所有报告) */
+        
         .report-content {
             font-family: "Georgia", "Times New Roman", serif; font-size: 1.05em; color: #343a40; line-height: 1.7;
         }
@@ -91,7 +104,6 @@
         .report-content code { background-color: #f5f5f5; padding: 3px 6px; border-radius: 4px; font-family: monospace; }
         .report-content blockquote { border-left: 5px solid var(--primary-color); padding-left: 1.5rem; color: #6c757d; margin: 1rem 0; font-style: italic; }
 
-        /* [新增] 设置面板样式 */
         .settings-panel {
             border-top: 1px solid var(--border-color);
             margin-top: 1.5rem;
@@ -106,14 +118,14 @@
             align-items: center;
         }
         .settings-header::after {
-            content: '▼'; /* 折叠图标 */
+            content: '▼';
             transition: transform 0.2s;
         }
         .settings-panel.collapsed .settings-header::after {
             transform: rotate(-90deg);
         }
         .settings-content {
-            max-height: 1000px; /* 足够大以容纳内容 */
+            max-height: 1000px;
             overflow: hidden;
             transition: max-height 0.3s ease-in-out;
         }
@@ -133,7 +145,6 @@
 <body>
 
     <div class="app-container">
-        <!-- ====================== 左侧边栏 ====================== -->
         <div class="sidebar">
             <h1>雅典娜</h1>
             
@@ -156,7 +167,6 @@
                 <label for="force-rerun" style="display: inline-block; font-weight: normal;">强制重新运行所有步骤</label>
             </div>
 
-            <!-- [新增] 设置面板 -->
             <div class="settings-panel collapsed" id="settings-panel">
                 <div class="settings-header" id="settings-header">
                     <span>高级设置</span>
@@ -191,6 +201,10 @@
                 </div>
             </div>
             
+            <div class="cost-info">
+                💰 每次审稿将扣除 <b>1 光子</b>
+            </div>
+
             <button id="start-review-btn">开始审稿</button>
 
             <div class="progress-tracker">
@@ -209,9 +223,7 @@
             </div>
         </div>
 
-        <!-- ====================== 右侧主内容区 ====================== -->
         <div class="main-content">
-            <!-- [修改] 增加新的 Tab 按钮 -->
             <div class="tab-bar">
                 <button class="tab-button active" data-tab="logs">实时日志</button>
                 <button class="tab-button disabled" data-tab="reviewer1" id="tab-reviewer1">审稿人1: 质量</button>
@@ -222,11 +234,9 @@
                 <div class="tab-pane active" id="logs-pane">
                     <div id="logs">欢迎使用雅典娜系统，请在左侧配置并开始审稿...</div>
                 </div>
-                <!-- [新增] 审稿人1的 Pane -->
                 <div class="tab-pane" id="reviewer1-pane">
                     <div id="reviewer1-report" class="report-content">审稿流程进行中，审稿人1的报告将在此处生成...</div>
                 </div>
-                <!-- [新增] 审稿人2的 Pane -->
                 <div class="tab-pane" id="reviewer2-pane">
                     <div id="reviewer2-report" class="report-content">审稿流程进行中，审稿人2的报告将在此处生成...</div>
                 </div>
@@ -328,37 +338,31 @@
         socket.on('reviewer2_report', (data) => handleReport('reviewer2', data));
         socket.on('final_review', (data) => {
             handleReport('final', data);
-            // 自动切换到最终报告
-            setTimeout(() => { // 增加一个微小的延迟确保渲染完成
+            setTimeout(() => { 
                  document.querySelector('.tab-button[data-tab="report"]').click();
             }, 100);
         });
         
-        // --- [核心修改] UI 重置函数 ---
         const resetUIForNewRun = () => {
-            // 将所有报告Tab恢复禁用和初始状态
             Object.values(tabButtonsElements).forEach(tab => tab.classList.add('disabled'));
             Object.values(reportDivs).forEach((div, index) => {
                 const placeholder = index < 2 ? '审稿流程进行中，报告将在此处生成...' : '审稿流程结束后，最终报告将在此处生成...';
                 div.innerHTML = placeholder;
             });
-            // 清理日志和进度
             logsDiv.innerHTML = '';
             Object.values(steps).forEach(s => s.classList.remove('running', 'success'));
-            // 切换回日志 Tab
             document.querySelector('.tab-button[data-tab="logs"]').click();
         };
 
-        // --- [核心修改] 'done' 和 'error' 事件处理 ---
         socket.on('done', (data) => {
             alert(data.message);
-            startBtn.disabled = false; // 只重新启用按钮，不重置UI
+            startBtn.disabled = false;
         });
         
         socket.on('error', (data) => {
             alert('Error: ' + data.message);
             logsDiv.innerHTML += `<span style="color: red; font-weight: bold;">ERROR: ${data.message}</span>\n`;
-            startBtn.disabled = false; // 只重新启用按钮，不重-置UI
+            startBtn.disabled = false;
         });
 
         // --- Start Review Logic ---
@@ -367,7 +371,6 @@
             const pdfFile = fileInput.files[0];
             if (!pdfFile) { alert('请选择一个PDF文件进行上传！'); return; }
             
-            // [核心修改] 在开始新任务时重置UI
             resetUIForNewRun(); 
             startBtn.disabled = true;
 
@@ -383,6 +386,7 @@
             formData.append('arxiv_start_date', document.getElementById('arxiv-start-date').value);
             formData.append('openreview_years', document.getElementById('openreview-years').value);
 
+            // 浏览器会自动携带 Cookie，无需手动处理 AccessKey
             fetch('/api/review', {
                 method: 'POST',
                 body: formData
@@ -390,6 +394,7 @@
             .then(response => response.json())
             .then(data => {
                 if (data.error) {
+                    // 如果后端直接返回错误 JSON（通常 socket 会处理，但作为 fallback）
                     alert('启动审稿时出错: ' + data.error);
                     startBtn.disabled = false;
                 } else {

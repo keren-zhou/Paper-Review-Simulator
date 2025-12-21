@@ -51,12 +51,12 @@ Auto-Reviewer旨在通过模拟真实的同行评审流程，为研究人员提�
     -   **输入**: `step1`生成的Markdown文件。
     -   **输出**: 一份内容详尽的分析文件 (`_comprehensive_analysis.json`)。
 
--   `step4_frontier_analysis.py`: **前沿技术分析 (arXiv)**
-    -   **功能**: 基于论文的关键词和创新点，智能生成arXiv搜索查询，以查找最新、最相关的研究。之后，通过多线程流水线（搜索、过滤、总结）对这些前沿论文进行处理和总结。
+-   `step3_frontier_analysis.py`: **前沿技术分析 (arXiv)**
+    -   **功能**: 基于论文的关键词和创新点,智能生成arXiv搜索查询,以查找最新、最相关的研究。之后,通过多线程流水线(搜索、过滤、总结)对这些前沿论文进行处理和总结。
     -   **输入**: `step2`生成的核心分析JSON文件。
-    -   **输出**: 一份前沿分析报告 (`_frontier_report.json`)，其中包含了相关前沿论文的标题、链接和核心思想总结。
+    -   **输出**: 一份前沿分析报告 (`_frontier_report.json`),其中包含了相关前沿论文的标题、链接和核心思想总结。
 
--   `step5_analysis.py`: **相似论文与评审意见检索 (OpenReview)**
+-   `step4_analysis.py`: **相似论文与评审意见检索 (OpenReview)**
     -   **功能**: 根据用户设定的会议等级（如CCF-A），在OpenReview上检索主题相似的已发表论文及其官方评审意见。这为模仿真实审稿人的口吻和关注点提供了宝贵的参考。
     -   **输入**: `step2`生成的核心分析JSON文件和用户指定的目标会议等级。
     -   **输出**: 一个CSV文件 (`final_relevant_papers.csv`)，包含相似论文的标题、摘要以及审稿人给出的优缺点总结。
@@ -70,8 +70,8 @@ Auto-Reviewer旨在通过模拟真实的同行评审流程，为研究人员提�
 2.  **并行阶段 (多分支审稿)**:
     - `Step 2` 完成后，`main.py` 使用Python的 `concurrent.futures.ThreadPoolExecutor` 启动一个线程池，同时执行三个独立的审稿分支：
         - **分支A (质量评审)**: 运行 `reviewer_1.py`。
-        - **分支B (新颖性评审)**: 先运行 `step4_frontier_analysis.py`，完成后再运行 `reviewer_2.py`。
-        - **分支C (相似论文分析)**: 运行 `step5_analysis.py`。
+        - **分支B (新颖性评审)**: 先运行 `step3_frontier_analysis.py`,完成后再运行 `reviewer_2.py`。
+        - **分支C (相似论文分析)**: 运行 `step4_analysis.py`。
     - 这三个分支之间没有依赖关系，并行执行可以显著缩短总耗时，尤其是当网络请求和LLM调用成为瓶颈时。
 
 3.  **同步与汇总阶段 (最终决策)**:
@@ -142,10 +142,13 @@ Nougat:https://github.com/facebookresearch/nougat/releases
 
 通过命令行启动整个审稿流水线。
 首先配置环境变量:
-export DASHSCOPE_API_KEY="sk-eba8e7fa9dc8412cbefdac1f3b51a715" && export OPENREVIEW_EMAIL="" && export OPENREVIEW_PASSWORD=""
-后面那个是OpenReview网站的个人账号和密码，用于调用API访问OPENREVIEW。前面那个是千问的API，可以自己申请一个，或者先用我的。
+export DASHSCOPE_API_KEY="" OPENREVIEW_EMAIL="" OPENREVIEW_PASSWORD=""
+后面那个是OpenReview网站的个人账号和密码，用于调用API访问OPENREVIEW。前面那个是千问的API。
 **使用示例**:
 ```bash
+本地测试：
 python main.py --pdf /path/to/your/paper.pdf --tier CCF-A
 其中每个step都是能单独运行的，可以直接单个调试。
-python api_server.py是前端，可以不管这个。
+
+上线后直接运行：
+python api_server.py 

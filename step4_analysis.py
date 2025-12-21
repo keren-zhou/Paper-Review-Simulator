@@ -1,4 +1,4 @@
-# step5_analysis.py
+# step4_analysis.py
 # -*- coding: utf-8 -*-
 
 # ==============================================================================
@@ -438,10 +438,10 @@ def run_openreview_scraper(
     print("\n[步骤 8] 正在将最终结果保存到 CSV...")
     to_csv_pandas(top_papers, output_csv_path)
     
-    print("\n🎉 Step 5 流程成功完成！")
+    print("\n🎉 Step 4 流程成功完成！")
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Step 5: 从 OpenReview 抓取相关的论文和审稿意见。")
+    parser = argparse.ArgumentParser(description="Step 4: 从 OpenReview 抓取相关的论文和审稿意见。")
     parser.add_argument("--analysis_json_path", type=str, required=True, help="指向 comprehensive_analysis.json 文件的路径。")
     parser.add_argument("--output_csv_path", type=str, required=True, help="保存输出的 final_relevant_papers.csv 文件的路径。")
     parser.add_argument("--target_tier", type=str, required=True, help="目标会议等级 (例如: CCF-A, CCF-B, CCF-C)。")

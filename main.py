@@ -188,14 +188,14 @@ if __name__ == "__main__":
     with ThreadPoolExecutor(max_workers=3) as executor:
         def run_branch_b():
             # [修改] 传递会话配置文件
-            run_step([step4_python_executable, "step4_frontier_analysis.py", "--analysis_json_path", str(analysis_json_path), "--output_path", str(frontier_report_path)] + base_command_args, "分支B (Step 4)", frontier_report_path, args.force)
+            run_step([step4_python_executable, "step3_frontier_analysis.py", "--analysis_json_path", str(analysis_json_path), "--output_path", str(frontier_report_path)] + base_command_args, "分支B (Step 3)", frontier_report_path, args.force)
             run_step(["python", "reviewer_2.py", "--summary_json_path", str(analysis_json_path), "--frontier_report_path", str(frontier_report_path), "--output_path", str(reviewer2_report_path)] + base_command_args, "分支B (Reviewer 2)", reviewer2_report_path, args.force, report_type="reviewer2")
             return "分支B 完成"
 
         futures = {
             executor.submit(run_branch_b): "分支B (新颖性路径)",
             executor.submit(run_step, ["python", "reviewer_1.py", "--markdown_path", str(md_path), "--json_path", str(analysis_json_path), "--output_path", str(reviewer1_report_path)] + base_command_args, "分支A (质量审查)", reviewer1_report_path, args.force, report_type="reviewer1"): "分支A (质量审查)",
-            executor.submit(run_step, [step4_python_executable, "step5_analysis.py", "--analysis_json_path", str(analysis_json_path), "--output_csv_path", str(openreview_csv_path), "--target_tier", conference_tier] + base_command_args, "分支C (相似论文)", openreview_csv_path, args.force): "分支C (相似论文)"
+            executor.submit(run_step, [step4_python_executable, "step4_analysis.py", "--analysis_json_path", str(analysis_json_path), "--output_csv_path", str(openreview_csv_path), "--target_tier", conference_tier] + base_command_args, "分支C (相似论文)", openreview_csv_path, args.force): "分支C (相似论文)"
         }
         
         try:

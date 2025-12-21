@@ -1,4 +1,4 @@
-# step4_frontier_analysis.py (已修复 UnboundLocalError)
+# step3_frontier_analysis.py (migrated from step4_frontier_analysis.py)
 # -*- coding: utf-8 -*-
 
 # ==============================================================================
@@ -6,6 +6,7 @@
 # ==============================================================================
 import openai
 import os
+os.environ['HF_ENDPOINT'] = 'https://hf-mirror.com'
 import json
 import time
 import datetime
@@ -277,7 +278,7 @@ def run_frontier_analysis(
     final_results.sort(key=lambda x: x['relevance_score'], reverse=True)
     with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(final_results[:max_papers], f, ensure_ascii=False, indent=4)
-    print(f"\n🎉 Step 4 成功！共总结了 {len(final_results)} 篇前沿论文。")
+    print(f"\n🎉 Step 3 成功！共总结了 {len(final_results)} 篇前沿论文。")
     print(f"报告中已保存相关度最高的 {len(final_results[:max_papers])} 篇。")
     print(f"分析报告已保存到: {output_file.resolve()}")
 
@@ -285,7 +286,7 @@ def run_frontier_analysis(
 # --- 5. 脚本入口 ---
 # ==============================================================================
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Step 4: Find and summarize frontier research from arXiv.")
+    parser = argparse.ArgumentParser(description="Step 3: Find and summarize frontier research from arXiv.")
     parser.add_argument("--analysis_json_path", type=str, required=True)
     parser.add_argument("--output_path", type=str, required=True)
     parser.add_argument("--config", type=str, default='config.ini', help="Path to the configuration file.")

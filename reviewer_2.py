@@ -208,7 +208,7 @@ if __name__ == "__main__":
     # 设置命令行参数解析器
     parser = argparse.ArgumentParser(description="Reviewer 2: 基于前沿研究进行论文新颖性评估。")
     parser.add_argument("--summary_json_path", type=str, required=True, help="来自 Step 2 的综合分析 JSON 文件路径。")
-    parser.add_argument("--frontier_report_path", type=str, required=True, help="来自 Step 4 的前沿分析报告 JSON 文件路径。")
+    parser.add_argument("--frontier_report_path", type=str, required=True, help="来自 Step 3 的前沿分析报告 JSON 文件路径。")
     parser.add_argument("--output_path", type=str, required=True, help="用于保存新颖性审稿报告的 Markdown 文件路径。")
     parser.add_argument("--config", type=str, help="Path to the configuration file (accepted but not used).")
     # 解析从命令行传入的参数

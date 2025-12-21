@@ -3,6 +3,7 @@
 
 import openai
 import os
+os.environ['HF_ENDPOINT'] = 'https://hf-mirror.com'
 import json
 import time
 from pathlib import Path

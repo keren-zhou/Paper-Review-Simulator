@@ -9,17 +9,42 @@ from typing import Optional
 import re
 import socketio
 import uvicorn
-from fastapi import FastAPI, File, Form, UploadFile
+from fastapi import FastAPI, File, Form, UploadFile, Request
 from fastapi.responses import HTMLResponse
-from dotenv import load_dotenv # [新增] 导入 dotenv
+from dotenv import load_dotenv 
+import requests
+import time
+import random
 
 # --- 全局设置 ---
-# [新增] 在程序开始时加载 .env 文件中的环境变量
+# 加载 .env 文件中的环境变量 (用于加载 DASHSCOPE_API_KEY 等)
 load_dotenv()
 
 # 创建一个目录用于存放上传的临时文件
 UPLOADS_DIR = Path("uploads")
 UPLOADS_DIR.mkdir(exist_ok=True)
+
+# ==========================================
+#               光子支付配置
+# ==========================================
+
+# 1. [调试开关] 
+# True = 开启模拟支付（跳过真实扣费，用于跑通流程）
+# False = 开启真实扣费（需填写有效 SKU_ID 和真实的 ACCESS_KEY）
+MOCK_PAYMENT_MODE = True 
+
+# 2. [本地硬编码配置] 
+# 当 Cookie 中无法获取时，将使用这些默认值
+# 请将下方引号内的内容替换为您真实的 accessKey 和 clientName
+DEV_ACCESS_KEY = "developer-key" 
+CLIENT_NAME = "developer_name"
+
+# 3. [商品配置]
+SKU_ID = 111  # 申请到真实 ID 后请修改此处
+PHOTON_API_URL = "https://openapi.dp.tech/openapi/v1/api/integral/consume"
+CHARGE_AMOUNT = 1 
+
+# ==========================================
 
 # --- FastAPI 和 Socket.IO 应用设置 ---
 app = FastAPI()
@@ -37,12 +62,11 @@ async def read_root():
     except FileNotFoundError:
         return HTMLResponse(content="<h1>错误：index.html 未找到</h1>", status_code=404)
 
-# --- 核心业务逻辑 ---
+# --- 核心业务逻辑 (保持不变) ---
 async def run_main_script(sid: str, pdf_path: str, params: dict):
     temp_upload_dir = Path(pdf_path).parent
     
     try:
-        # [修改] 构建命令，包含所有从前端接收的参数
         command = [
             "python", "main.py",
             "--pdf", pdf_path,
@@ -51,9 +75,7 @@ async def run_main_script(sid: str, pdf_path: str, params: dict):
         if params['force']:
             command.append("--force")
         
-        # 将所有可选配置作为命令行参数传递
         for key, value in params.items():
-            # tier 和 force 已经处理过，跳过
             if key in ['tier', 'force']:
                 continue
             if value is not None:
@@ -66,7 +88,6 @@ async def run_main_script(sid: str, pdf_path: str, params: dict):
         )
 
         async def stream_logs(stream, stream_name):
-            # [核心修改] 新增信令检测逻辑
             report_signal_pattern = re.compile(r"\[REPORT_READY\](reviewer1|reviewer2):(.+)")
 
             while True:
@@ -75,10 +96,9 @@ async def run_main_script(sid: str, pdf_path: str, params: dict):
                     break
                 line_str = line.decode('utf-8', errors='replace').strip()
                 
-                # 检查是否是报告信令
                 match = report_signal_pattern.match(line_str)
                 if match:
-                    report_type = match.group(1) # 'reviewer1' or 'reviewer2'
+                    report_type = match.group(1)
                     report_path_str = match.group(2).strip()
                     report_path = Path(report_path_str)
                     
@@ -91,14 +111,11 @@ async def run_main_script(sid: str, pdf_path: str, params: dict):
                             print(f"[SID: {sid}] Error reading report file {report_path}: {e}")
                     else:
                          print(f"[SID: {sid}] Report file not found at signaled path: {report_path}")
+                    continue
 
-                    continue # 信令本身不作为日志发送给前端
-
-                # 如果不是信令，则作为普通日志处理
                 print(f"[SID: {sid}] {stream_name}: {line_str}")
                 await sio.emit('log', {'data': line_str}, to=sid)
                 
-                # 状态更新逻辑 (保持不变)
                 if "🚀 开始执行: Step 1" in line_str:
                     await sio.emit('status_update', {'step': 'step1', 'status': 'running'}, to=sid)
                 elif "✅ Step 1" in line_str:
@@ -125,12 +142,7 @@ async def run_main_script(sid: str, pdf_path: str, params: dict):
 
         if process.returncode == 0:
             try:
-                # 这里的逻辑需要动态确定最终报告的路径
-                # 假设 main.py 在成功时会打印出最终报告的路径
-                # 为简化，我们先基于 paper_name 构建路径
                 paper_name = Path(pdf_path).stem
-                # 注意：这个路径需要和 main.py 中的输出路径一致
-                # 我们需要从 config.ini 读取 OUTPUT_BASE_DIR
                 import configparser
                 config = configparser.ConfigParser()
                 config.read('config.ini')
@@ -167,11 +179,11 @@ async def run_main_script(sid: str, pdf_path: str, params: dict):
 # --- API Endpoints ---
 @app.post("/api/review")
 async def start_review(
+    request: Request,
     sid: str = Form(...),
     tier: str = Form(...),
     force: str = Form(...), 
     pdf_file: UploadFile = File(...),
-    # [新增] 接收所有高级设置参数
     max_papers_frontier: Optional[int] = Form(None),
     max_papers_openreview: Optional[int] = Form(None),
     relevance_threshold: Optional[float] = Form(None),
@@ -181,6 +193,73 @@ async def start_review(
 ):
     if sid in client_tasks:
         return {"error": "该会话已有任务在运行。"}
+
+    # =======================================================
+    #                 光子扣费逻辑 (已修改)
+    # =======================================================
+    
+    # 逻辑：优先从 Cookie 获取，如果为空则使用文件顶部的硬编码变量
+    access_key = request.cookies.get("appAccessKey") or DEV_ACCESS_KEY
+    client_name = request.cookies.get("clientName") or CLIENT_NAME
+    
+    # --- 1. 模拟模式 (调试用) ---
+    if MOCK_PAYMENT_MODE:
+        print(f"[SID: {sid}] ⚠️ [调试模式] 模拟光子扣费成功 (未调用真实接口)")
+        # 即使是模拟模式，打印一下当前使用的 key 信息也方便调试
+        print(f"[SID: {sid}] Using Key: {access_key[:6]}***, Client: {client_name}")
+        await sio.emit('log', {'data': f"💰 [调试模式] 虚拟扣除 {CHARGE_AMOUNT} 光子，跳过支付验证，直接开始..."}, to=sid)
+    
+    # --- 2. 真实扣费模式 ---
+    else:
+        # 必须要有 access_key 才能扣费
+        if not access_key or access_key == "your_access_key_here":
+            error_msg = "❌ 错误：未获取到有效的 AccessKey。请配置 Cookie 或在 api_server.py 中正确填写 DEV_ACCESS_KEY。"
+            await sio.emit('error', {'message': error_msg}, to=sid)
+            return {"error": error_msg}
+
+        timestamp = int(time.time())
+        rand_part = random.randint(1000, 9999)
+        biz_no = int(f"{timestamp}{rand_part}")
+
+        payload = {
+            "bizNo": biz_no,
+            "changeType": 1,
+            "eventValue": CHARGE_AMOUNT,
+            "skuId": SKU_ID, 
+            "scene": "appCustomizeCharge"
+        }
+
+        # 这里的 client_name 对应文档中的 x-app-key header
+        headers = {
+            "accessKey": access_key,
+            "x-app-key": client_name, 
+            "Content-Type": "application/json"
+        }
+
+        try:
+            print(f"[SID: {sid}] 正在请求光子扣费: {CHARGE_AMOUNT} 光子...")
+            resp = requests.post(PHOTON_API_URL, headers=headers, json=payload, timeout=10)
+            resp_data = resp.json()
+
+            if resp_data.get("code") != 0:
+                fail_reason = resp_data.get("msg") or resp_data.get("message") or "未知错误"
+                error_msg = f"光子扣费失败: {fail_reason} (Code: {resp_data.get('code')})"
+                print(f"[SID: {sid}] {error_msg}")
+                await sio.emit('error', {'message': error_msg}, to=sid)
+                return {"error": error_msg}
+            
+            print(f"[SID: {sid}] 光子扣费成功！BizNo: {biz_no}")
+            await sio.emit('log', {'data': f"💰 已成功扣除 {CHARGE_AMOUNT} 光子，开始审稿流程..."}, to=sid)
+
+        except Exception as e:
+            error_msg = f"光子支付接口调用异常: {str(e)}"
+            print(f"[SID: {sid}] {error_msg}")
+            await sio.emit('error', {'message': error_msg}, to=sid)
+            return {"error": error_msg}
+
+    # ==========================
+    # 2. 文件保存与任务启动
+    # ==========================
 
     session_upload_dir = UPLOADS_DIR / str(uuid.uuid4())
     session_upload_dir.mkdir(parents=True, exist_ok=True)
@@ -198,7 +277,6 @@ async def start_review(
     finally:
         pdf_file.file.close()
 
-    # [修改] 将所有参数打包到一个字典中
     params = {
         'tier': tier,
         'force': (force == 'true'),
@@ -229,7 +307,6 @@ def disconnect(sid):
     print(f"🔌 客户端已断开: {sid}")
 
 if __name__ == "__main__":
-    # [修改] 检查必要的环境变量
     required_env_vars = ['DASHSCOPE_API_KEY', 'OPENREVIEW_EMAIL', 'OPENREVIEW_PASSWORD']
     if any(not os.getenv(var) for var in required_env_vars):
         print("❌ 启动错误: 缺少必要的环境变量。请确保您已创建 .env 文件并正确配置了以下变量: ")
