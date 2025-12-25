@@ -31,7 +31,6 @@ import argparse
 import configparser
 import sys
 import os
-os.environ['HF_ENDPOINT'] = 'https://hf-mirror.com'
 # 2. CORE FUNCTIONS
 
 def extract_and_process_images(pdf_path: Path, images_output_dir: Path, target_dpi: int):

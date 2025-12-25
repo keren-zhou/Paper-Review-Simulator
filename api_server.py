@@ -31,18 +31,20 @@ UPLOADS_DIR.mkdir(exist_ok=True)
 # 1. [调试开关] 
 # True = 开启模拟支付（跳过真实扣费，用于跑通流程）
 # False = 开启真实扣费（需填写有效 SKU_ID 和真实的 ACCESS_KEY）
-MOCK_PAYMENT_MODE = True 
+MOCK_PAYMENT_MODE = False 
 
 # 2. [本地硬编码配置] 
 # 当 Cookie 中无法获取时，将使用这些默认值
 # 请将下方引号内的内容替换为您真实的 accessKey 和 clientName
-DEV_ACCESS_KEY = "developer-key" 
-CLIENT_NAME = "developer_name"
+
+# 如果想模拟真实扣费请输入你的key，（模拟用户的key）
+DEV_ACCESS_KEY = "your_access_key_here" 
+CLIENT_NAME = "TNO3ERQX"
 
 # 3. [商品配置]
-SKU_ID = 111  # 申请到真实 ID 后请修改此处
+SKU_ID = 10052  # 申请到真实 ID 后请修改此处
 PHOTON_API_URL = "https://openapi.dp.tech/openapi/v1/api/integral/consume"
-CHARGE_AMOUNT = 1 
+CHARGE_AMOUNT = 29
 
 # ==========================================
 
@@ -213,7 +215,7 @@ async def start_review(
     else:
         # 必须要有 access_key 才能扣费
         if not access_key or access_key == "your_access_key_here":
-            error_msg = "❌ 错误：未获取到有效的 AccessKey。请配置 Cookie 或在 api_server.py 中正确填写 DEV_ACCESS_KEY。"
+            error_msg = "❌ 错误：未获取到有效的 AccessKey。请配置 Cookie "
             await sio.emit('error', {'message': error_msg}, to=sid)
             return {"error": error_msg}
 
